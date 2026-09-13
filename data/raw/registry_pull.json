@@ -7352,46 +7352,6 @@
     "publisher_description": "Email for AI agents: send, read replies as threads, run campaigns, with per-key limits."
   },
   {
-    "name": "mcp",
-    "vendor": "samuelar2",
-    "docs_url": "https://docs.sentfrom.ai/guides/mcp",
-    "server_url": "npm sentfromai-mcp",
-    "vendor_domain": "github.com",
-    "auth_type": "Varies (see package/remote config)",
-    "transport": "Local/stdio",
-    "categories": [
-      "Community"
-    ],
-    "runtime": "npm package (npm)",
-    "source_name": "MCP Registry (registry.modelcontextprotocol.io)",
-    "source_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sentfrom/mcp",
-    "verification_tier": "community_github_verified",
-    "repo_owner": "samuelar2",
-    "repo_name": "sentfromai-mcp",
-    "repo_url": "https://github.com/samuelar2/sentfromai-mcp",
-    "publisher_description": "Email for AI agents: inboxes, send/reply/forward, search, threads, webhooks \u2014 21 SentFromAI tools."
-  },
-  {
-    "name": "mcp",
-    "vendor": "samuelar2",
-    "docs_url": "https://docs.sentvia.ai/guides/mcp",
-    "server_url": "npm sentvia-mcp",
-    "vendor_domain": "github.com",
-    "auth_type": "Varies (see package/remote config)",
-    "transport": "Local/stdio",
-    "categories": [
-      "Community"
-    ],
-    "runtime": "npm package (npm)",
-    "source_name": "MCP Registry (registry.modelcontextprotocol.io)",
-    "source_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sentvia/mcp",
-    "verification_tier": "community_github_verified",
-    "repo_owner": "samuelar2",
-    "repo_name": "sentvia-mcp",
-    "repo_url": "https://github.com/samuelar2/sentvia-mcp",
-    "publisher_description": "Email for AI agents: inboxes, send/reply/forward, search, threads, webhooks \u2014 21 SentVia tools."
-  },
-  {
     "name": "SEOmatic",
     "vendor": "Minh42",
     "docs_url": "https://seomatic.ai/developers/mcp",
@@ -7690,46 +7650,6 @@
     "repo_name": "gemini-vision-mcp",
     "repo_url": "https://github.com/Artin0123/gemini-vision-mcp",
     "publisher_description": "Analyze images and videos with Gemini to get fast, reliable visual insights. Handle content from U\u2026"
-  },
-  {
-    "name": "BadRooBot-my_test_mcp",
-    "vendor": "BadRooBot",
-    "docs_url": "https://github.com/BadRooBot/python_mcp",
-    "server_url": "https://server.smithery.ai/@BadRooBot/my_test_mcp/mcp",
-    "vendor_domain": "github.com",
-    "auth_type": "Varies (see package/remote config)",
-    "transport": "Remote/STREAMABLE-HTTP",
-    "categories": [
-      "Community"
-    ],
-    "runtime": "Remote endpoint",
-    "source_name": "MCP Registry (registry.modelcontextprotocol.io)",
-    "source_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.smithery/BadRooBot-my_test_mcp",
-    "verification_tier": "community_github_verified",
-    "repo_owner": "BadRooBot",
-    "repo_name": "python_mcp",
-    "repo_url": "https://github.com/BadRooBot/python_mcp",
-    "publisher_description": "Get current weather for any city and create images from your prompts. Streamline planning, reports\u2026"
-  },
-  {
-    "name": "BadRooBot-test_m",
-    "vendor": "BadRooBot",
-    "docs_url": "https://github.com/BadRooBot/test_m",
-    "server_url": "https://server.smithery.ai/@BadRooBot/test_m/mcp",
-    "vendor_domain": "github.com",
-    "auth_type": "Varies (see package/remote config)",
-    "transport": "Remote/STREAMABLE-HTTP",
-    "categories": [
-      "Community"
-    ],
-    "runtime": "Remote endpoint",
-    "source_name": "MCP Registry (registry.modelcontextprotocol.io)",
-    "source_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.smithery/BadRooBot-test_m",
-    "verification_tier": "community_github_verified",
-    "repo_owner": "BadRooBot",
-    "repo_name": "test_m",
-    "repo_url": "https://github.com/BadRooBot/test_m",
-    "publisher_description": "Send quick greetings, scrape website content, and generate text or images on demand. Perform web s\u2026"
   },
   {
     "name": "BigVik193-reddit-ads-mcp",

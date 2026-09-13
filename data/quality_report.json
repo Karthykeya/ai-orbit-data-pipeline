@@ -2,17 +2,17 @@
   "generated_by": "scripts/quality_report.py",
   "dataset": "MCP Servers module",
   "totals": {
-    "mcp_records": 1075,
+    "mcp_records": 1071,
     "verified_first_party_records": 75,
-    "community_github_verified_records": 1000,
+    "community_github_verified_records": 996,
     "company_records": 69,
-    "repository_records": 977,
-    "relationship_records": 1150
+    "repository_records": 973,
+    "relationship_records": 1146
   },
   "integrity": {
     "duplicate_ids": 0,
-    "duplicate_name_vendor_pairs": 1,
-    "passes_uniqueness_check": false
+    "duplicate_name_vendor_pairs": 0,
+    "passes_uniqueness_check": true
   },
   "completeness": {
     "description_coverage_pct": 100.0,
@@ -20,12 +20,12 @@
     "logo_url_coverage_pct": 100.0
   },
   "description_sourcing": {
-    "publisher_registry": 1000,
+    "publisher_registry": 996,
     "llm_curated": 75
   },
   "traceability": {
     "verified_tier_url_and_source_same_host_pct": 100.0,
-    "community_tier_url_matches_declared_repo_pct": 47.1,
+    "community_tier_url_matches_declared_repo_pct": 47.09,
     "note": "Verified-tier records point `url` and `source.url` at the same vendor host. Community-tier records legitimately have a different source host (the MCP Registry) \u2014 for that tier we instead check `url` matches the declared repository URL."
   },
   "company_enrichment": {
@@ -33,13 +33,13 @@
     "companies_with_founding_year_pct": 100.0
   },
   "repository_enrichment": {
-    "repositories_with_github_stars_pct": 2.46,
+    "repositories_with_github_stars_pct": 2.47,
     "note": "Populated when scripts/pull_registry.py was run with --enrich-github; null fields are honestly reported, never guessed."
   },
   "distribution": {
     "by_category": {
-      "MCP": 1075,
-      "Community": 1000,
+      "MCP": 1071,
+      "Community": 996,
       "Dev Tools": 31,
       "Productivity": 13,
       "AI Assist": 10,
@@ -70,14 +70,14 @@
       "Videos": 1
     },
     "by_transport": {
-      "Remote/STREAMABLE-HTTP": 826,
-      "Local/stdio": 170,
+      "Remote/STREAMABLE-HTTP": 824,
+      "Local/stdio": 168,
       "Remote/HTTP": 57,
       "Remote/SSE": 18,
       "Unknown": 4
     },
     "by_auth_type": {
-      "Varies (see package/remote config)": 1000,
+      "Varies (see package/remote config)": 996,
       "OAuth": 37,
       "None": 12,
       "API Key": 11,
@@ -93,7 +93,7 @@
       "OAuth / Bearer Token": 1
     },
     "by_relationship_type": {
-      "hosted_in": 1000,
+      "hosted_in": 996,
       "develops": 75,
       "integrates_with": 75
     }

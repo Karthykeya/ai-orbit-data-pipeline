@@ -6593,44 +6593,6 @@
     "last_updated": null
   },
   {
-    "id": "339bc86c-7f5e-50c0-8a18-d6d9ec74e9f4",
-    "entity_type": "repository",
-    "name": "sentfromai-mcp",
-    "description": "GitHub repository publishing the mcp MCP server.",
-    "url": "https://github.com/samuelar2/sentfromai-mcp",
-    "categories": [
-      "Repository",
-      "MCP"
-    ],
-    "source": {
-      "name": "MCP Registry (registry.modelcontextprotocol.io)",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sentfrom/mcp"
-    },
-    "owner": "samuelar2",
-    "stars": null,
-    "primary_language": null,
-    "last_updated": null
-  },
-  {
-    "id": "e3680aba-2416-5a23-bce1-6d4a8d32cb55",
-    "entity_type": "repository",
-    "name": "sentvia-mcp",
-    "description": "GitHub repository publishing the mcp MCP server.",
-    "url": "https://github.com/samuelar2/sentvia-mcp",
-    "categories": [
-      "Repository",
-      "MCP"
-    ],
-    "source": {
-      "name": "MCP Registry (registry.modelcontextprotocol.io)",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sentvia/mcp"
-    },
-    "owner": "samuelar2",
-    "stars": null,
-    "primary_language": null,
-    "last_updated": null
-  },
-  {
     "id": "63216826-b5fe-5914-b06a-ea5ac3cb37c8",
     "entity_type": "repository",
     "name": "seomatic-mcp",
@@ -6911,44 +6873,6 @@
       "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.smithery/Artin0123-gemini-image-mcp-server"
     },
     "owner": "Artin0123",
-    "stars": null,
-    "primary_language": null,
-    "last_updated": null
-  },
-  {
-    "id": "b8799b80-47c7-55ea-b896-354cacdc26df",
-    "entity_type": "repository",
-    "name": "python_mcp",
-    "description": "GitHub repository publishing the BadRooBot-my_test_mcp MCP server.",
-    "url": "https://github.com/BadRooBot/python_mcp",
-    "categories": [
-      "Repository",
-      "MCP"
-    ],
-    "source": {
-      "name": "MCP Registry (registry.modelcontextprotocol.io)",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.smithery/BadRooBot-my_test_mcp"
-    },
-    "owner": "BadRooBot",
-    "stars": null,
-    "primary_language": null,
-    "last_updated": null
-  },
-  {
-    "id": "3bd62c4a-399a-5c21-8c9c-ddb778f3d65d",
-    "entity_type": "repository",
-    "name": "test_m",
-    "description": "GitHub repository publishing the BadRooBot-test_m MCP server.",
-    "url": "https://github.com/BadRooBot/test_m",
-    "categories": [
-      "Repository",
-      "MCP"
-    ],
-    "source": {
-      "name": "MCP Registry (registry.modelcontextprotocol.io)",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.smithery/BadRooBot-test_m"
-    },
-    "owner": "BadRooBot",
     "stars": null,
     "primary_language": null,
     "last_updated": null

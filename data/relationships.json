@@ -4187,22 +4187,6 @@
     "target_type": "repository"
   },
   {
-    "id": "2093fd17-77a9-5faa-a3d8-63385812713f",
-    "type": "hosted_in",
-    "source_id": "8ee670f8-249b-54f9-ae5e-3bf4e9ae8f60",
-    "source_type": "mcp",
-    "target_id": "339bc86c-7f5e-50c0-8a18-d6d9ec74e9f4",
-    "target_type": "repository"
-  },
-  {
-    "id": "16549c60-37aa-5d51-87e9-dbb7ebe828d8",
-    "type": "hosted_in",
-    "source_id": "7e35b4ef-7cd6-5010-8f2f-e468077a803b",
-    "source_type": "mcp",
-    "target_id": "e3680aba-2416-5a23-bce1-6d4a8d32cb55",
-    "target_type": "repository"
-  },
-  {
     "id": "aced7c3f-e3a2-5e77-bf83-08b5e22769e4",
     "type": "hosted_in",
     "source_id": "06ad6113-38e1-5e1f-a7a7-42848d4f79a9",
@@ -4320,22 +4304,6 @@
     "source_id": "6ca4574e-ede3-5ac8-ad10-09ca6d40f58e",
     "source_type": "mcp",
     "target_id": "85642602-f1fd-58e8-b3d9-1ace47b2f464",
-    "target_type": "repository"
-  },
-  {
-    "id": "f8b36c18-cfc2-503c-9308-7c9f0215455d",
-    "type": "hosted_in",
-    "source_id": "71929fb3-4bcb-5296-b604-c3f593ba7b64",
-    "source_type": "mcp",
-    "target_id": "b8799b80-47c7-55ea-b896-354cacdc26df",
-    "target_type": "repository"
-  },
-  {
-    "id": "eb2ac276-e2e1-571d-b30c-b21882512739",
-    "type": "hosted_in",
-    "source_id": "fded99ba-a252-5a0e-b35a-dbc21a8daf72",
-    "source_type": "mcp",
-    "target_id": "3bd62c4a-399a-5c21-8c9c-ddb778f3d65d",
     "target_type": "repository"
   },
   {
