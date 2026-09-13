@@ -106,32 +106,41 @@ ws_q.append(["Regenerate this report anytime with: python scripts/quality_report
 
 # ---------- Sheet 5: README ----------
 ws4 = wb.create_sheet("README", 0)
+t = quality["totals"]
+verified_n = t["verified_first_party_records"]
+community_n = t["community_github_verified_records"]
+total_n = t["mcp_records"]
 readme_lines = [
     ("AI Orbit Data Ingestion — MCP Servers Module", True),
     ("", False),
-    ("Scope: 75 official, first-party MCP (Model Context Protocol) servers,", False),
-    ("verified against each vendor's own documentation (see source_url per row).", False),
+    (f"Scope: {total_n} MCP (Model Context Protocol) servers —", False),
+    (f"  {verified_n} first-party (verified against each vendor's own documentation)", False),
+    (f"  {community_n} community (from Anthropic's official MCP Registry, each with a real public GitHub repo)", False),
+    ("See verification_status per row in the MCP Servers tab for which is which.", False),
     ("", False),
     ("Sheets:", True),
-    ("  MCP Servers     - main dataset (75 records)", False),
-    ("  Companies       - derived vendor/company entities (69 records), enriched with", False),
-    ("                    real headquarters, founding year, and industry sector", False),
-    ("  Relationships   - Company-develops-MCP and MCP-integrates_with-Tool edges (150)", False),
+    (f"  MCP Servers     - main dataset ({total_n} records: {verified_n} verified + {community_n} community)", False),
+    (f"  Companies       - derived vendor/company entities ({len(companies)} records, verified tier only),", False),
+    ("                    enriched with real headquarters, founding year, and industry sector", False),
+    (f"  Repositories    - derived GitHub repository entities ({len(repositories)} records, community tier only)", False),
+    (f"  Relationships   - develops/integrates_with (verified) + hosted_in (community) edges ({t['relationship_records']})", False),
     ("  Quality Report  - automated, regenerable integrity/completeness metrics", False),
     ("", False),
     ("Quality snapshot (see Quality Report tab for the live numbers):", True),
-    ("  - 0 duplicate ids, 0 duplicate name+vendor pairs", False),
-    ("  - 100% description / official-URL / logo-URL coverage", False),
-    ("  - 100% of records marked verification_status = verified", False),
-    ("  - 100% of records' url and source.url share the same verified host", False),
+    (f"  - {quality['integrity']['duplicate_ids']} duplicate ids, {quality['integrity']['duplicate_name_vendor_pairs']} duplicate name+vendor pairs", False),
+    (f"  - {quality['completeness']['description_coverage_pct']}% description / {quality['completeness']['official_url_coverage_pct']}% official-URL / {quality['completeness']['logo_url_coverage_pct']}% logo-URL coverage", False),
+    (f"  - Description sourcing: {quality['description_sourcing']}", False),
     ("", False),
     ("Data quality notes:", True),
-    ("  - url = official documentation page for each server (not a 3rd-party directory)", False),
-    ("  - logo_url = Clearbit Logo API keyed to the vendor's own verified apex domain", False),
-    ("  - descriptions were written by an LLM (Claude) after cleaning/verification", False),
+    ("  - verified tier: url = official documentation page for each server (not a 3rd-party directory)", False),
+    ("  - community tier: url = the server's own public GitHub repository, sourced via the official MCP Registry", False),
+    ("  - logo_url = Clearbit Logo API (verified tier) or the GitHub owner's own avatar (community tier)", False),
+    ("  - descriptions: LLM-authored for the verified tier; publisher-provided (from the registry) for community", False),
+    ("    records unless run with an ANTHROPIC_API_KEY set, in which case they're also LLM-rewritten live", False),
     ("  - ids are deterministic UUIDv5s so re-running the pipeline is idempotent", False),
     ("", False),
     ("Pipeline, tests, CI, and ARCHITECTURE.md: see the accompanying GitHub repository.", False),
+    ("This tab is generated automatically by build_sheet.py from the actual data — it will never drift out of sync.", False),
 ]
 for i, (text, bold) in enumerate(readme_lines, start=1):
     cell = ws4.cell(row=i, column=1, value=text)
