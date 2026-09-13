@@ -1,0 +1,1854 @@
+[
+  {
+    "id": "2e9404a0-3c45-59fc-9889-42fcfcfdaabd",
+    "entity_type": "mcp",
+    "name": "Filesystem",
+    "description": "Reference MCP server that gives an AI assistant secure, permission-scoped read and write access to local files and directories.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Reference"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "npx -y @modelcontextprotocol/server-filesystem",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Node.js (npx)",
+      "runtime_requirements": "Node.js (npx)"
+    }
+  },
+  {
+    "id": "bf5cc3cc-9b75-5fea-8f19-743c0bb0f49c",
+    "entity_type": "mcp",
+    "name": "Fetch",
+    "description": "Reference MCP server that fetches web pages and converts them into clean, LLM-friendly text for an assistant to reason over.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Reference"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "uvx mcp-server-fetch",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Python (uvx)",
+      "runtime_requirements": "Python (uvx)"
+    }
+  },
+  {
+    "id": "615ed74f-774b-5e57-9cc3-41210ed86553",
+    "entity_type": "mcp",
+    "name": "Git",
+    "description": "Reference MCP server exposing tools to read, search, and manipulate the commits, branches, and history of a local Git repository.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Reference",
+      "Version Control"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "uvx mcp-server-git",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Python (uvx)",
+      "runtime_requirements": "Python (uvx)"
+    }
+  },
+  {
+    "id": "833f4992-6c03-56d5-ba25-783410b18738",
+    "entity_type": "mcp",
+    "name": "Memory",
+    "description": "Reference MCP server implementing a persistent, knowledge-graph-based memory store an assistant can write to and query across sessions.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "AI Assist",
+      "MCP",
+      "Reference"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "npx -y @modelcontextprotocol/server-memory",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Node.js (npx)",
+      "runtime_requirements": "Node.js (npx)"
+    }
+  },
+  {
+    "id": "18f73a78-efb5-5bb0-abcc-2e1407196932",
+    "entity_type": "mcp",
+    "name": "Sequential Thinking",
+    "description": "Reference MCP server that structures an assistant's reasoning into revisable, numbered thought steps for complex problem-solving.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "AI Assist",
+      "MCP",
+      "Reference"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "npx -y @modelcontextprotocol/server-sequential-thinking",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Node.js (npx)",
+      "runtime_requirements": "Node.js (npx)"
+    }
+  },
+  {
+    "id": "44f1f9fb-bf24-549c-a4b6-94c79bf14406",
+    "entity_type": "mcp",
+    "name": "Time",
+    "description": "Reference MCP server providing current time lookups and timezone conversions for date-sensitive assistant tasks.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Reference"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "uvx mcp-server-time",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Python (uvx)",
+      "runtime_requirements": "Python (uvx)"
+    }
+  },
+  {
+    "id": "a29f8840-aa24-5d70-a4e6-9a013a681744",
+    "entity_type": "mcp",
+    "name": "Everything",
+    "description": "Reference MCP server bundling prompts, resources, and tools used to test and demonstrate the full MCP specification.",
+    "url": "https://modelcontextprotocol.io/examples",
+    "logo_url": "https://logo.clearbit.com/modelcontextprotocol.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Reference"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "metadata": {
+      "vendor": "Anthropic / MCP Steering Group",
+      "server_url": "npx -y @modelcontextprotocol/server-everything",
+      "auth_type": "None",
+      "transport": "Local/stdio",
+      "installation": "Node.js (npx)",
+      "runtime_requirements": "Node.js (npx)"
+    }
+  },
+  {
+    "id": "27e2ccd8-cb7a-57d0-8eba-e3da57d7fd97",
+    "entity_type": "mcp",
+    "name": "GitHub MCP Server",
+    "description": "GitHub's official remote MCP server, letting an AI assistant search code, open pull requests, manage issues, and inspect workflows on a connected repository.",
+    "url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server",
+    "logo_url": "https://logo.clearbit.com/github.com",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Version Control"
+    ],
+    "source": {
+      "name": "GitHub Docs",
+      "url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server"
+    },
+    "metadata": {
+      "vendor": "GitHub",
+      "server_url": "https://api.githubcopilot.com/mcp",
+      "auth_type": "Bearer Token (PAT)",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "ae25362c-54d3-57a8-9626-a857fca0caae",
+    "entity_type": "mcp",
+    "name": "Notion MCP Server",
+    "description": "Notion's official MCP server for reading and writing pages and databases in a connected Notion workspace via natural-language requests.",
+    "url": "https://developers.notion.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/notion.com",
+    "categories": [
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Notion Developers",
+      "url": "https://developers.notion.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Notion",
+      "server_url": "https://mcp.notion.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "774d4c14-3737-5e46-9741-7b624d21d377",
+    "entity_type": "mcp",
+    "name": "Stripe MCP Server",
+    "description": "Stripe's official MCP server for looking up customers, creating payment intents, and querying subscriptions and invoices from an AI agent.",
+    "url": "https://docs.stripe.com/stripe-apps/mcp",
+    "logo_url": "https://logo.clearbit.com/stripe.com",
+    "categories": [
+      "MCP",
+      "Payments"
+    ],
+    "source": {
+      "name": "Stripe Docs",
+      "url": "https://docs.stripe.com/stripe-apps/mcp"
+    },
+    "metadata": {
+      "vendor": "Stripe",
+      "server_url": "https://mcp.stripe.com",
+      "auth_type": "OAuth / API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "5f4f5237-f49f-5ff6-8d20-50f3eb1c0865",
+    "entity_type": "mcp",
+    "name": "Linear MCP Server",
+    "description": "Linear's official remote MCP server for creating, searching, and updating issues, projects, and cycles in a connected workspace.",
+    "url": "https://linear.app/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/linear.app",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Linear Docs",
+      "url": "https://linear.app/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Linear",
+      "server_url": "https://mcp.linear.app/mcp",
+      "auth_type": "OAuth 2.0 (DCR)",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "02b55425-d8d1-5203-8f35-53ab9b88d09f",
+    "entity_type": "mcp",
+    "name": "Slack MCP Server",
+    "description": "Slack's official MCP server enabling channel search, message history lookup, and message posting from an AI assistant.",
+    "url": "https://docs.slack.dev/ai/slack-mcp-server",
+    "logo_url": "https://logo.clearbit.com/slack.com",
+    "categories": [
+      "Communication",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Slack Developer Docs",
+      "url": "https://docs.slack.dev/ai/slack-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Slack",
+      "server_url": "https://mcp.slack.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "202bb3e6-bfdd-5975-89b3-1385cde3faae",
+    "entity_type": "mcp",
+    "name": "Atlassian Rovo MCP Server",
+    "description": "Atlassian's official remote MCP server for searching and editing Jira issues and Confluence pages through natural language.",
+    "url": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server",
+    "logo_url": "https://logo.clearbit.com/atlassian.com",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Atlassian Support",
+      "url": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Atlassian",
+      "server_url": "https://mcp.atlassian.com/v1/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "9c4dbab8-1300-58d1-ac5f-9d823ae432cc",
+    "entity_type": "mcp",
+    "name": "HubSpot MCP Server",
+    "description": "HubSpot's official MCP server for querying and updating CRM contacts, deals, companies, and marketing data.",
+    "url": "https://developers.hubspot.com/docs/guides/apps/mcp",
+    "logo_url": "https://logo.clearbit.com/hubspot.com",
+    "categories": [
+      "CRM",
+      "MCP"
+    ],
+    "source": {
+      "name": "HubSpot Developers",
+      "url": "https://developers.hubspot.com/docs/guides/apps/mcp"
+    },
+    "metadata": {
+      "vendor": "HubSpot",
+      "server_url": "https://app.hubspot.com/mcp/v1/http",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "77a7d4f0-9bcc-568d-86b7-f8b0d658fde1",
+    "entity_type": "mcp",
+    "name": "Supabase MCP Server",
+    "description": "Supabase's official MCP server for creating and managing Supabase projects, running database queries, and inspecting schemas.",
+    "url": "https://supabase.com/docs/guides/getting-started/mcp",
+    "logo_url": "https://logo.clearbit.com/supabase.com",
+    "categories": [
+      "Database",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started/mcp"
+    },
+    "metadata": {
+      "vendor": "Supabase",
+      "server_url": "https://mcp.supabase.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "6f85e3d8-7462-5d83-90d7-fe10a11aa816",
+    "entity_type": "mcp",
+    "name": "Cloudflare Workers MCP Server",
+    "description": "Cloudflare's official MCP server for managing Workers, KV namespaces, R2 buckets, and other bindings from an AI coding agent.",
+    "url": "https://developers.cloudflare.com/agents/mcp",
+    "logo_url": "https://logo.clearbit.com/cloudflare.com",
+    "categories": [
+      "Cloud",
+      "MCP"
+    ],
+    "source": {
+      "name": "Cloudflare Developers",
+      "url": "https://developers.cloudflare.com/agents/mcp"
+    },
+    "metadata": {
+      "vendor": "Cloudflare",
+      "server_url": "https://bindings.mcp.cloudflare.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "cefcd000-d6c9-54f0-92ab-d03ceac98a9e",
+    "entity_type": "mcp",
+    "name": "Vercel MCP Server",
+    "description": "Vercel's official MCP server for deploying, inspecting, and monitoring frontend projects and serverless functions.",
+    "url": "https://vercel.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/vercel.com",
+    "categories": [
+      "Cloud",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Vercel Docs",
+      "url": "https://vercel.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Vercel",
+      "server_url": "https://mcp.vercel.com",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "8918411e-9ae9-5cfe-b0f0-5122e359432c",
+    "entity_type": "mcp",
+    "name": "Sentry MCP Server",
+    "description": "Sentry's official MCP server that surfaces error reports, stack traces, and performance issues from a connected project.",
+    "url": "https://docs.sentry.io/product/sentry-mcp",
+    "logo_url": "https://logo.clearbit.com/sentry.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Observability"
+    ],
+    "source": {
+      "name": "Sentry Docs",
+      "url": "https://docs.sentry.io/product/sentry-mcp"
+    },
+    "metadata": {
+      "vendor": "Sentry",
+      "server_url": "https://mcp.sentry.dev/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "8ebb6264-fa6c-5b0f-b4e5-c24b1039d089",
+    "entity_type": "mcp",
+    "name": "PayPal MCP Server",
+    "description": "PayPal's official MCP server exposing payment, invoicing, and commerce API operations to AI agents via function calling.",
+    "url": "https://developer.paypal.com/tools/mcp-server",
+    "logo_url": "https://logo.clearbit.com/paypal.com",
+    "categories": [
+      "MCP",
+      "Payments"
+    ],
+    "source": {
+      "name": "PayPal Developer",
+      "url": "https://developer.paypal.com/tools/mcp-server"
+    },
+    "metadata": {
+      "vendor": "PayPal",
+      "server_url": "https://mcp.paypal.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "42e6b3bf-1554-5a60-a40c-bfa287e8dda0",
+    "entity_type": "mcp",
+    "name": "Asana MCP Server",
+    "description": "Asana's official MCP server for creating tasks, searching projects, and analyzing workload across a connected Asana workspace.",
+    "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+    "logo_url": "https://logo.clearbit.com/asana.com",
+    "categories": [
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Asana Developers",
+      "url": "https://developers.asana.com/docs/using-asanas-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Asana",
+      "server_url": "https://mcp.asana.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "862dbf77-a503-5593-8c36-9acc212ed564",
+    "entity_type": "mcp",
+    "name": "ClickUp MCP Server",
+    "description": "ClickUp's official MCP server for managing tasks, docs, and workflows across a connected ClickUp workspace.",
+    "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+    "logo_url": "https://logo.clearbit.com/clickup.com",
+    "categories": [
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "ClickUp Developer Docs",
+      "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server"
+    },
+    "metadata": {
+      "vendor": "ClickUp",
+      "server_url": "https://mcp.clickup.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "e4eef444-8ef4-535f-be0d-d492f7cf7815",
+    "entity_type": "mcp",
+    "name": "monday.com MCP Server",
+    "description": "monday.com's official MCP server for reading and updating boards, items, and workflows on the monday Work OS.",
+    "url": "https://support.monday.com/hc/en-us/articles/28588158981266-Get-started-with-monday-MCP",
+    "logo_url": "https://logo.clearbit.com/monday.com",
+    "categories": [
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "monday.com Support",
+      "url": "https://support.monday.com/hc/en-us/articles/28588158981266-Get-started-with-monday-MCP"
+    },
+    "metadata": {
+      "vendor": "monday.com",
+      "server_url": "https://mcp.monday.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "cc0a4177-59d8-5fcc-89a6-2d8d8450cbe7",
+    "entity_type": "mcp",
+    "name": "Miro MCP Server",
+    "description": "Miro's official MCP server for summarizing existing boards or generating new frames, sticky notes, and diagrams during a workshop.",
+    "url": "https://developers.miro.com/docs/miro-mcp",
+    "logo_url": "https://logo.clearbit.com/miro.com",
+    "categories": [
+      "Creative",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Miro Developers",
+      "url": "https://developers.miro.com/docs/miro-mcp"
+    },
+    "metadata": {
+      "vendor": "Miro",
+      "server_url": "https://mcp.miro.com",
+      "auth_type": "OAuth DCR",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "9dbd7e00-6806-5ae3-afe2-085af6d8b2a0",
+    "entity_type": "mcp",
+    "name": "Intercom MCP Server",
+    "description": "Intercom's official MCP server for searching conversations and managing customer messaging and support data.",
+    "url": "https://developers.intercom.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/intercom.com",
+    "categories": [
+      "Communication",
+      "Customer Support",
+      "MCP"
+    ],
+    "source": {
+      "name": "Intercom Developers",
+      "url": "https://developers.intercom.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Intercom",
+      "server_url": "https://mcp.intercom.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "0c64b1c0-59c0-5b61-b33d-ef82074c8ec3",
+    "entity_type": "mcp",
+    "name": "PagerDuty MCP Server",
+    "description": "PagerDuty's official MCP server for viewing and managing incidents, on-call schedules, and escalation policies.",
+    "url": "https://support.pagerduty.com/main/docs/pagerduty-mcp-server-integration-guide",
+    "logo_url": "https://logo.clearbit.com/pagerduty.com",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Observability"
+    ],
+    "source": {
+      "name": "PagerDuty Support",
+      "url": "https://support.pagerduty.com/main/docs/pagerduty-mcp-server-integration-guide"
+    },
+    "metadata": {
+      "vendor": "PagerDuty",
+      "server_url": "https://mcp.pagerduty.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "a50d0b99-78e4-5811-86c2-98db46c5891d",
+    "entity_type": "mcp",
+    "name": "Neon MCP Server",
+    "description": "Neon's official MCP server for creating and managing serverless Postgres databases and branches.",
+    "url": "https://neon.tech/docs/ai/neon-mcp-server",
+    "logo_url": "https://logo.clearbit.com/neon.tech",
+    "categories": [
+      "Database",
+      "MCP"
+    ],
+    "source": {
+      "name": "Neon Docs",
+      "url": "https://neon.tech/docs/ai/neon-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Neon",
+      "server_url": "https://mcp.neon.tech/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "6cc9858e-dd80-524a-a368-7e9ff7212d3a",
+    "entity_type": "mcp",
+    "name": "Netlify MCP Server",
+    "description": "Netlify's official MCP server for building, deploying, and managing web projects and serverless functions.",
+    "url": "https://docs.netlify.com/mcp",
+    "logo_url": "https://logo.clearbit.com/netlify.com",
+    "categories": [
+      "Cloud",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Netlify Docs",
+      "url": "https://docs.netlify.com/mcp"
+    },
+    "metadata": {
+      "vendor": "Netlify",
+      "server_url": "https://netlify-mcp.netlify.app/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "b3027500-21f3-5136-b4ba-4cb84317ce53",
+    "entity_type": "mcp",
+    "name": "Prisma MCP Server",
+    "description": "Prisma's official MCP server for provisioning Prisma Postgres databases and running schema migrations.",
+    "url": "https://www.prisma.io/docs/postgres/integrations/mcp-server",
+    "logo_url": "https://logo.clearbit.com/prisma.io",
+    "categories": [
+      "Database",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Prisma Docs",
+      "url": "https://www.prisma.io/docs/postgres/integrations/mcp-server"
+    },
+    "metadata": {
+      "vendor": "Prisma",
+      "server_url": "https://mcp.prisma.io/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "6ef9ea16-d4a5-558b-b982-d426ed6dc3b0",
+    "entity_type": "mcp",
+    "name": "Render MCP Server",
+    "description": "Render's official MCP server for managing web services, databases, and deployments on the Render cloud platform.",
+    "url": "https://render.com/docs/mcp-server",
+    "logo_url": "https://logo.clearbit.com/render.com",
+    "categories": [
+      "Cloud",
+      "MCP"
+    ],
+    "source": {
+      "name": "Render Docs",
+      "url": "https://render.com/docs/mcp-server"
+    },
+    "metadata": {
+      "vendor": "Render",
+      "server_url": "https://mcp.render.com/mcp",
+      "auth_type": "Bearer Token",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "9841085c-6496-5c78-93b7-63ae745a46d4",
+    "entity_type": "mcp",
+    "name": "Replicate MCP Server",
+    "description": "Replicate's official MCP server for discovering, comparing, and running hosted AI models via a cloud API.",
+    "url": "https://replicate.com/docs/reference/mcp",
+    "logo_url": "https://logo.clearbit.com/replicate.com",
+    "categories": [
+      "AI Assist",
+      "MCP",
+      "Models"
+    ],
+    "source": {
+      "name": "Replicate Docs",
+      "url": "https://replicate.com/docs/reference/mcp"
+    },
+    "metadata": {
+      "vendor": "Replicate",
+      "server_url": "https://mcp.replicate.com/sse",
+      "auth_type": "SSE",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "0dc073a0-40ae-5ef0-a566-e2e90685bc4c",
+    "entity_type": "mcp",
+    "name": "Sanity MCP Server",
+    "description": "Sanity's official MCP server for creating, querying, and managing structured content, datasets, and schemas.",
+    "url": "https://www.sanity.io/docs/compute-and-ai/mcp-server",
+    "logo_url": "https://logo.clearbit.com/sanity.io",
+    "categories": [
+      "Creative",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Sanity Docs",
+      "url": "https://www.sanity.io/docs/compute-and-ai/mcp-server"
+    },
+    "metadata": {
+      "vendor": "Sanity",
+      "server_url": "https://mcp.sanity.io",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "0f4ea43d-8877-5041-9fb4-c28ed49e9927",
+    "entity_type": "mcp",
+    "name": "Semgrep MCP Server",
+    "description": "Semgrep's official MCP server that scans source code for security vulnerabilities directly from an AI coding agent.",
+    "url": "https://semgrep.dev/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/semgrep.dev",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Security"
+    ],
+    "source": {
+      "name": "Semgrep Docs",
+      "url": "https://semgrep.dev/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Semgrep",
+      "server_url": "https://mcp.semgrep.ai/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "e9a9b2df-52fd-51a4-a8c5-0aa73b2c3cb4",
+    "entity_type": "mcp",
+    "name": "Square MCP Server",
+    "description": "Square's official MCP server for managing payments, orders, inventory, and customer records.",
+    "url": "https://developer.squareup.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/squareup.com",
+    "categories": [
+      "MCP",
+      "Payments"
+    ],
+    "source": {
+      "name": "Square Developer",
+      "url": "https://developer.squareup.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Square",
+      "server_url": "https://mcp.squareup.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "ea2b56d7-a164-5aec-ab71-2375d48bc6bb",
+    "entity_type": "mcp",
+    "name": "Stack Overflow MCP Server",
+    "description": "Stack Overflow's official MCP server for searching developer Q&A content to ground an assistant's coding answers.",
+    "url": "https://stackoverflow.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/stackoverflow.com",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Search"
+    ],
+    "source": {
+      "name": "Stack Overflow Docs",
+      "url": "https://stackoverflow.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Stack Overflow",
+      "server_url": "https://mcp.stackoverflow.com",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "e91835d1-7936-5bc1-a79e-b757f9fc79dc",
+    "entity_type": "mcp",
+    "name": "Typeform MCP Server",
+    "description": "Typeform's official MCP server for creating and editing forms and analyzing response data.",
+    "url": "https://www.typeform.com/developers/mcp",
+    "logo_url": "https://logo.clearbit.com/typeform.com",
+    "categories": [
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Typeform Developers",
+      "url": "https://www.typeform.com/developers/mcp"
+    },
+    "metadata": {
+      "vendor": "Typeform",
+      "server_url": "https://api.typeform.com/mcp",
+      "auth_type": "OAuth DCR",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "329ea259-49c5-5c36-bbf6-269c496fdc76",
+    "entity_type": "mcp",
+    "name": "Stytch MCP Server",
+    "description": "Stytch's official MCP server for managing authentication flows, sessions, and user identity data.",
+    "url": "https://stytch.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/stytch.com",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Security"
+    ],
+    "source": {
+      "name": "Stytch Docs",
+      "url": "https://stytch.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Stytch",
+      "server_url": "https://mcp.stytch.dev/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "a7b0b02d-8ec6-54d9-8644-ade0f280a9cf",
+    "entity_type": "mcp",
+    "name": "Zapier MCP Server",
+    "description": "Zapier's official MCP server that lets an AI agent trigger and orchestrate automations across thousands of connected apps.",
+    "url": "https://zapier.com/mcp",
+    "logo_url": "https://logo.clearbit.com/zapier.com",
+    "categories": [
+      "Automation",
+      "MCP"
+    ],
+    "source": {
+      "name": "Zapier",
+      "url": "https://zapier.com/mcp"
+    },
+    "metadata": {
+      "vendor": "Zapier",
+      "server_url": "https://mcp.zapier.com/api/mcp/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "c010a9ed-311c-54ac-bd9b-0b84a0370f5d",
+    "entity_type": "mcp",
+    "name": "Wix MCP Server",
+    "description": "Wix's official MCP server for building and managing Wix websites through an AI coding assistant.",
+    "url": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+    "logo_url": "https://logo.clearbit.com/wix.com",
+    "categories": [
+      "Cloud",
+      "Creative",
+      "MCP"
+    ],
+    "source": {
+      "name": "Wix Developers",
+      "url": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp"
+    },
+    "metadata": {
+      "vendor": "Wix",
+      "server_url": "https://mcp.wix.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "c98af7bc-11c3-5e4d-95c3-1b42e2dcbadf",
+    "entity_type": "mcp",
+    "name": "Postman MCP Server",
+    "description": "Postman's official remote MCP server for running API requests and collections and inspecting responses from an AI agent.",
+    "url": "https://github.com/postmanlabs/postman-mcp-server/blob/main/README.md",
+    "logo_url": "https://logo.clearbit.com/postman.com",
+    "categories": [
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Postman GitHub",
+      "url": "https://github.com/postmanlabs/postman-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Postman",
+      "server_url": "https://mcp.postman.com/minimal",
+      "auth_type": "Bearer Token (API Key)",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "fa6ff997-58d6-5556-899a-d8df4ce74224",
+    "entity_type": "mcp",
+    "name": "PostHog MCP Server",
+    "description": "PostHog's official MCP server for querying product analytics, feature flags, and session data.",
+    "url": "https://posthog.com/docs/model-context-protocol",
+    "logo_url": "https://logo.clearbit.com/posthog.com",
+    "categories": [
+      "Analytics",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "PostHog Docs",
+      "url": "https://posthog.com/docs/model-context-protocol"
+    },
+    "metadata": {
+      "vendor": "PostHog",
+      "server_url": "https://mcp.posthog.com/sse",
+      "auth_type": "Bearer Token (API Key)",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "37549dd0-6c08-55cc-a6cd-d8e77365da92",
+    "entity_type": "mcp",
+    "name": "Pipedrive MCP Server",
+    "description": "Pipedrive's official MCP server for managing sales deals, contacts, and pipeline activities.",
+    "url": "https://www.pipedrive.com/en/features/mcp-server",
+    "logo_url": "https://logo.clearbit.com/pipedrive.com",
+    "categories": [
+      "CRM",
+      "MCP"
+    ],
+    "source": {
+      "name": "Pipedrive",
+      "url": "https://www.pipedrive.com/en/features/mcp-server"
+    },
+    "metadata": {
+      "vendor": "Pipedrive",
+      "server_url": "https://mcp.pipedrive.ai/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "92a65319-08d2-5f41-be7a-eed443de19ad",
+    "entity_type": "mcp",
+    "name": "Pipedream MCP Server",
+    "description": "Pipedream's official MCP server for connecting an AI agent to thousands of third-party API workflows.",
+    "url": "https://pipedream.com/docs/connect/mcp",
+    "logo_url": "https://logo.clearbit.com/pipedream.com",
+    "categories": [
+      "Automation",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Pipedream Docs",
+      "url": "https://pipedream.com/docs/connect/mcp"
+    },
+    "metadata": {
+      "vendor": "Pipedream",
+      "server_url": "https://mcp.pipedream.net/<uuid>/<app>",
+      "auth_type": "Custom",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "aa486ef8-d3e7-5a5a-a3a5-a1d69d0a98bf",
+    "entity_type": "mcp",
+    "name": "Plaid MCP Server",
+    "description": "Plaid's official MCP server for querying connected bank account and transaction data through Plaid's financial APIs.",
+    "url": "https://plaid.com/docs/resources",
+    "logo_url": "https://logo.clearbit.com/plaid.com",
+    "categories": [
+      "Finance",
+      "MCP",
+      "Payments"
+    ],
+    "source": {
+      "name": "Plaid Docs",
+      "url": "https://plaid.com/docs/resources"
+    },
+    "metadata": {
+      "vendor": "Plaid",
+      "server_url": "https://api.dashboard.plaid.com/mcp/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "e470d58e-c73a-5f7f-a5de-09b64fa4321c",
+    "entity_type": "mcp",
+    "name": "Ramp MCP Server",
+    "description": "Ramp's official MCP server for reviewing corporate card transactions, expenses, and spend data.",
+    "url": "https://docs.ramp.com/mcp",
+    "logo_url": "https://logo.clearbit.com/ramp.com",
+    "categories": [
+      "Finance",
+      "MCP"
+    ],
+    "source": {
+      "name": "Ramp Docs",
+      "url": "https://docs.ramp.com/mcp"
+    },
+    "metadata": {
+      "vendor": "Ramp",
+      "server_url": "https://ramp-mcp-remote.ramp.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "5c91b147-4e62-5e2f-9650-1b0e5576e6b6",
+    "entity_type": "mcp",
+    "name": "Coda MCP Server",
+    "description": "Coda's official MCP server for creating documents and reading or updating tables in a connected Coda workspace.",
+    "url": "https://coda.io/resources/guides/getting_started_with_coda_mcp",
+    "logo_url": "https://logo.clearbit.com/coda.io",
+    "categories": [
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Coda Guides",
+      "url": "https://coda.io/resources/guides/getting_started_with_coda_mcp"
+    },
+    "metadata": {
+      "vendor": "Coda",
+      "server_url": "https://coda.io/apis/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "a6924e6c-9cc8-577b-881a-9d3bd4fab4f5",
+    "entity_type": "mcp",
+    "name": "Cloudinary MCP Server",
+    "description": "Cloudinary's official MCP server for uploading, transforming, and delivering image and video assets.",
+    "url": "https://cloudinary.com/documentation/mcp",
+    "logo_url": "https://logo.clearbit.com/cloudinary.com",
+    "categories": [
+      "Cloud",
+      "Creative",
+      "MCP"
+    ],
+    "source": {
+      "name": "Cloudinary Docs",
+      "url": "https://cloudinary.com/documentation/mcp"
+    },
+    "metadata": {
+      "vendor": "Cloudinary",
+      "server_url": "https://asset-management.mcp.cloudinary.com/sse",
+      "auth_type": "OAuth",
+      "transport": "Remote/SSE",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "7216797f-0b39-54ad-bc44-4fc5229e4ba5",
+    "entity_type": "mcp",
+    "name": "Context7 MCP Server",
+    "description": "Context7's official MCP server that retrieves up-to-date, version-specific library documentation for coding agents.",
+    "url": "https://context7.com/docs/resources/all-clients",
+    "logo_url": "https://logo.clearbit.com/context7.com",
+    "categories": [
+      "AI Assist",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Context7 Docs",
+      "url": "https://context7.com/docs/resources/all-clients"
+    },
+    "metadata": {
+      "vendor": "Upstash (Context7)",
+      "server_url": "https://mcp.context7.com/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "8cb95e2b-92d9-5980-8ce6-01b51474e30e",
+    "entity_type": "mcp",
+    "name": "Attio MCP Server",
+    "description": "Attio's official MCP server for managing contacts, companies, and deal records in a flexible CRM data model.",
+    "url": "https://attio.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/attio.com",
+    "categories": [
+      "CRM",
+      "MCP"
+    ],
+    "source": {
+      "name": "Attio Docs",
+      "url": "https://attio.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Attio",
+      "server_url": "https://mcp.attio.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "1cd7b56b-91e9-50bc-8220-203d346b7a5d",
+    "entity_type": "mcp",
+    "name": "Close CRM MCP Server",
+    "description": "Close's official MCP server for managing sales contacts, leads, and pipeline stages in its CRM.",
+    "url": "https://help.close.com/docs/mcp-server",
+    "logo_url": "https://logo.clearbit.com/close.com",
+    "categories": [
+      "CRM",
+      "MCP"
+    ],
+    "source": {
+      "name": "Close Help Center",
+      "url": "https://help.close.com/docs/mcp-server"
+    },
+    "metadata": {
+      "vendor": "Close",
+      "server_url": "https://mcp.close.com/mcp",
+      "auth_type": "OAuth / API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "7298c714-0980-574a-a679-ac3b0ee3211c",
+    "entity_type": "mcp",
+    "name": "Ashby MCP Server",
+    "description": "Ashby's official MCP server for searching and managing recruiting pipeline and candidate data.",
+    "url": "https://docs.ashbyhq.com/ashby-mcp-server-beta",
+    "logo_url": "https://logo.clearbit.com/ashbyhq.com",
+    "categories": [
+      "HR",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Ashby Docs",
+      "url": "https://docs.ashbyhq.com/ashby-mcp-server-beta"
+    },
+    "metadata": {
+      "vendor": "Ashby",
+      "server_url": "https://mcp.ashbyhq.com/mcp/v1",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "271ad443-95ce-5aed-8175-3da2cb231e52",
+    "entity_type": "mcp",
+    "name": "Buildkite MCP Server",
+    "description": "Buildkite's official MCP server for inspecting and managing CI/CD pipelines and build results.",
+    "url": "https://buildkite.com/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/buildkite.com",
+    "categories": [
+      "CI/CD",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Buildkite Docs",
+      "url": "https://buildkite.com/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Buildkite",
+      "server_url": "https://mcp.buildkite.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "bc7414e0-6d45-50fe-8db0-65eb38d98d8a",
+    "entity_type": "mcp",
+    "name": "Canva MCP Server",
+    "description": "Canva's official MCP server for creating and editing design assets and presentations from an AI agent.",
+    "url": "https://www.canva.dev/docs/connect/mcp",
+    "logo_url": "https://logo.clearbit.com/canva.com",
+    "categories": [
+      "Creative",
+      "MCP"
+    ],
+    "source": {
+      "name": "Canva Developers",
+      "url": "https://www.canva.dev/docs/connect/mcp"
+    },
+    "metadata": {
+      "vendor": "Canva",
+      "server_url": "https://mcp.canva.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "7ee69a3e-8e38-5702-ace6-89bec364e34f",
+    "entity_type": "mcp",
+    "name": "Apify MCP Server",
+    "description": "Apify's official MCP server giving an AI agent access to thousands of pre-built web scrapers and automation actors.",
+    "url": "https://docs.apify.com/platform/integrations/mcp",
+    "logo_url": "https://logo.clearbit.com/apify.com",
+    "categories": [
+      "Automation",
+      "MCP",
+      "Web Scraping"
+    ],
+    "source": {
+      "name": "Apify Docs",
+      "url": "https://docs.apify.com/platform/integrations/mcp"
+    },
+    "metadata": {
+      "vendor": "Apify",
+      "server_url": "https://mcp.apify.com",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "b24a7091-9e3e-5091-974a-a8ea6883ef9f",
+    "entity_type": "mcp",
+    "name": "Amplitude MCP Server",
+    "description": "Amplitude's official MCP server for querying behavioral analytics and product-experimentation data.",
+    "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp",
+    "logo_url": "https://logo.clearbit.com/amplitude.com",
+    "categories": [
+      "Analytics",
+      "MCP"
+    ],
+    "source": {
+      "name": "Amplitude Docs",
+      "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+    },
+    "metadata": {
+      "vendor": "Amplitude",
+      "server_url": "https://mcp.amplitude.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "8cd8b8d0-be7e-5ba9-81b3-e1161a30a06e",
+    "entity_type": "mcp",
+    "name": "Astro Docs MCP Server",
+    "description": "Astro's official MCP server providing search access to the official Astro web framework documentation.",
+    "url": "https://docs.astro.build/en/guides/build-with-ai",
+    "logo_url": "https://logo.clearbit.com/astro.build",
+    "categories": [
+      "Dev Tools",
+      "Documentation",
+      "MCP"
+    ],
+    "source": {
+      "name": "Astro Docs",
+      "url": "https://docs.astro.build/en/guides/build-with-ai"
+    },
+    "metadata": {
+      "vendor": "Astro",
+      "server_url": "https://mcp.docs.astro.build/mcp",
+      "auth_type": "None",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "242ac6d5-4bd0-5208-95fb-5bff1e8fd109",
+    "entity_type": "mcp",
+    "name": "Braintrust MCP Server",
+    "description": "Braintrust's official MCP server for inspecting evaluation experiments, logs, and deployment data for LLM applications.",
+    "url": "https://www.braintrust.dev/docs/deploy/mcp",
+    "logo_url": "https://logo.clearbit.com/braintrust.dev",
+    "categories": [
+      "AI Assist",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Braintrust Docs",
+      "url": "https://www.braintrust.dev/docs/deploy/mcp"
+    },
+    "metadata": {
+      "vendor": "Braintrust",
+      "server_url": "https://api.braintrust.dev/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "94b3e280-c174-564a-a6aa-314caa06b32a",
+    "entity_type": "mcp",
+    "name": "Browser Use MCP Server",
+    "description": "Browser Use's official MCP server exposing browser-automation documentation and integration guidance to agents.",
+    "url": "https://docs.browser-use.com/customize/integrations/mcp-server",
+    "logo_url": "https://logo.clearbit.com/browser-use.com",
+    "categories": [
+      "AI Assist",
+      "Automation",
+      "MCP"
+    ],
+    "source": {
+      "name": "Browser Use Docs",
+      "url": "https://docs.browser-use.com/customize/integrations/mcp-server"
+    },
+    "metadata": {
+      "vendor": "Browser Use",
+      "server_url": "https://api.browser-use.com/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "d6c3674a-0e89-5530-8c5d-5dc1bdfca355",
+    "entity_type": "mcp",
+    "name": "DeepWiki MCP Server",
+    "description": "Devin AI's DeepWiki MCP server that auto-generates architecture explanations and source-linked documentation for any public codebase.",
+    "url": "https://docs.devin.ai/work-with-devin/deepwiki-mcp",
+    "logo_url": "https://logo.clearbit.com/devin.ai",
+    "categories": [
+      "Dev Tools",
+      "Documentation",
+      "MCP"
+    ],
+    "source": {
+      "name": "Devin AI Docs",
+      "url": "https://docs.devin.ai/work-with-devin/deepwiki-mcp"
+    },
+    "metadata": {
+      "vendor": "Devin AI (Cognition)",
+      "server_url": "https://mcp.deepwiki.com/mcp",
+      "auth_type": "None",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "ec333b67-2bfa-53b8-b598-5d035390527d",
+    "entity_type": "mcp",
+    "name": "draw.io MCP Server",
+    "description": "draw.io's official MCP server for generating and previewing diagrams inline inside a chat conversation.",
+    "url": "https://www.drawio.com/docs/manual/generate/drawio-mcp-server",
+    "logo_url": "https://logo.clearbit.com/drawio.com",
+    "categories": [
+      "Creative",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "draw.io Docs",
+      "url": "https://www.drawio.com/docs/manual/generate/drawio-mcp-server"
+    },
+    "metadata": {
+      "vendor": "draw.io (JGraph)",
+      "server_url": "https://mcp.draw.io/mcp",
+      "auth_type": "None",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "24c5aa60-16c3-577d-8dc4-8df4a786f167",
+    "entity_type": "mcp",
+    "name": "Excalidraw MCP Server",
+    "description": "Excalidraw's official MCP server for streaming hand-drawn-style diagrams into an AI chat interface.",
+    "url": "https://github.com/excalidraw/excalidraw-mcp",
+    "logo_url": "https://logo.clearbit.com/excalidraw.com",
+    "categories": [
+      "Creative",
+      "MCP"
+    ],
+    "source": {
+      "name": "Excalidraw GitHub",
+      "url": "https://github.com/excalidraw/excalidraw-mcp"
+    },
+    "metadata": {
+      "vendor": "Excalidraw",
+      "server_url": "https://mcp.excalidraw.com",
+      "auth_type": "None",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "6194955b-ac09-53e9-bf10-3ba9f20cc73d",
+    "entity_type": "mcp",
+    "name": "Fireflies.ai MCP Server",
+    "description": "Fireflies.ai's official MCP server for searching, summarizing, and managing meeting transcripts and notes.",
+    "url": "https://guide.fireflies.ai/docs/mcp",
+    "logo_url": "https://logo.clearbit.com/fireflies.ai",
+    "categories": [
+      "AI Assist",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Fireflies Guide",
+      "url": "https://guide.fireflies.ai/docs/mcp"
+    },
+    "metadata": {
+      "vendor": "Fireflies.ai",
+      "server_url": "https://api.fireflies.ai/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "90c006f8-ea60-5877-856f-c08285e9d63a",
+    "entity_type": "mcp",
+    "name": "Google Maps MCP Server",
+    "description": "Google's official MCP server for geocoding, place lookups, and route/direction data from Google Maps.",
+    "url": "https://developers.google.com/maps/ai/grounding-lite/reference/mcp",
+    "logo_url": "https://logo.clearbit.com/google.com",
+    "categories": [
+      "Cloud",
+      "Location",
+      "MCP"
+    ],
+    "source": {
+      "name": "Google Maps Platform Docs",
+      "url": "https://developers.google.com/maps/ai/grounding-lite/reference/mcp"
+    },
+    "metadata": {
+      "vendor": "Google",
+      "server_url": "https://mapstools.googleapis.com/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "25a12d94-14ce-5341-9fe9-c3ae72fb676d",
+    "entity_type": "mcp",
+    "name": "Honeycomb MCP Server",
+    "description": "Honeycomb's official MCP server for querying observability traces, events, and service-level objectives.",
+    "url": "https://docs.honeycomb.io/integrations/mcp",
+    "logo_url": "https://logo.clearbit.com/honeycomb.io",
+    "categories": [
+      "Dev Tools",
+      "MCP",
+      "Observability"
+    ],
+    "source": {
+      "name": "Honeycomb Docs",
+      "url": "https://docs.honeycomb.io/integrations/mcp"
+    },
+    "metadata": {
+      "vendor": "Honeycomb",
+      "server_url": "https://mcp.honeycomb.io/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "a3aa8553-7c01-5941-ade9-e3b4f69f5960",
+    "entity_type": "mcp",
+    "name": "Hugging Face MCP Server",
+    "description": "Hugging Face's official MCP server for searching and retrieving models, datasets, and Spaces on the Hugging Face Hub.",
+    "url": "https://huggingface.co/docs/hub/en/hf-mcp-server",
+    "logo_url": "https://logo.clearbit.com/huggingface.co",
+    "categories": [
+      "AI Assist",
+      "MCP",
+      "Models"
+    ],
+    "source": {
+      "name": "Hugging Face Docs",
+      "url": "https://huggingface.co/docs/hub/en/hf-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Hugging Face",
+      "server_url": "https://hf.co/mcp",
+      "auth_type": "None / Optional",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "fd6e7f25-d6b7-5758-b6df-21197fb53772",
+    "entity_type": "mcp",
+    "name": "InstantDB MCP Server",
+    "description": "InstantDB's official MCP server for querying and managing InstantDB's real-time database from an AI agent.",
+    "url": "https://www.instantdb.com/docs/using-llms",
+    "logo_url": "https://logo.clearbit.com/instantdb.com",
+    "categories": [
+      "Database",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "InstantDB Docs",
+      "url": "https://www.instantdb.com/docs/using-llms"
+    },
+    "metadata": {
+      "vendor": "Instant",
+      "server_url": "https://mcp.instantdb.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "bcc58ac1-7128-5f7e-90e8-050f7ec8f693",
+    "entity_type": "mcp",
+    "name": "Jamie MCP Server",
+    "description": "Jamie's official MCP server for searching meeting notes and extracting action items from recorded calls.",
+    "url": "https://docs.meetjamie.ai/integrations/mcp",
+    "logo_url": "https://logo.clearbit.com/meetjamie.ai",
+    "categories": [
+      "AI Assist",
+      "MCP",
+      "Productivity"
+    ],
+    "source": {
+      "name": "Jamie Docs",
+      "url": "https://docs.meetjamie.ai/integrations/mcp"
+    },
+    "metadata": {
+      "vendor": "Jamie",
+      "server_url": "https://mcp.meetjamie.ai/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "3e3ad1d9-ba38-562d-ad20-8a9d98f26520",
+    "entity_type": "mcp",
+    "name": "Leadfeeder MCP Server",
+    "description": "Leadfeeder's official MCP server for identifying companies that visited a website and enriching lead data.",
+    "url": "https://help.leadfeeder.com/en/articles/15532431-connect-leadfeeder-to-your-ai-tool-with-the-mcp-server",
+    "logo_url": "https://logo.clearbit.com/leadfeeder.com",
+    "categories": [
+      "Analytics",
+      "CRM",
+      "MCP"
+    ],
+    "source": {
+      "name": "Leadfeeder Help Center",
+      "url": "https://help.leadfeeder.com/en/articles/15532431-connect-leadfeeder-to-your-ai-tool-with-the-mcp-server"
+    },
+    "metadata": {
+      "vendor": "Leadfeeder",
+      "server_url": "https://mcp.leadfeeder.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "71a824ef-85ab-5797-8298-6507f3c27bea",
+    "entity_type": "mcp",
+    "name": "Microsoft Learn Docs MCP Server",
+    "description": "Microsoft's official MCP server for searching Microsoft Learn documentation directly from an AI assistant.",
+    "url": "https://learn.microsoft.com/en-us/training/support/mcp",
+    "logo_url": "https://logo.clearbit.com/microsoft.com",
+    "categories": [
+      "Dev Tools",
+      "Documentation",
+      "MCP"
+    ],
+    "source": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/support/mcp"
+    },
+    "metadata": {
+      "vendor": "Microsoft",
+      "server_url": "https://learn.microsoft.com/api/mcp",
+      "auth_type": "None",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "9731c25e-faf8-5543-8152-d4df4b4b9c17",
+    "entity_type": "mcp",
+    "name": "Mobbin MCP Server",
+    "description": "Mobbin's official MCP server providing UI/UX design-pattern references sourced from real shipped mobile and web apps.",
+    "url": "https://mobbin.com/mcp",
+    "logo_url": "https://logo.clearbit.com/mobbin.com",
+    "categories": [
+      "Creative",
+      "Design Reference",
+      "MCP"
+    ],
+    "source": {
+      "name": "Mobbin",
+      "url": "https://mobbin.com/mcp"
+    },
+    "metadata": {
+      "vendor": "Mobbin",
+      "server_url": "https://api.mobbin.com/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "2470d00b-0eae-5cd7-8885-61971d14b1bf",
+    "entity_type": "mcp",
+    "name": "Modjo MCP Server",
+    "description": "Modjo's official MCP server for analyzing recorded sales calls, deals, and account data with AI agents.",
+    "url": "https://help.modjo.ai/en/articles/15459539-set-up-and-use-the-modjo-mcp",
+    "logo_url": "https://logo.clearbit.com/modjo.ai",
+    "categories": [
+      "AI Assist",
+      "CRM",
+      "MCP"
+    ],
+    "source": {
+      "name": "Modjo Help Center",
+      "url": "https://help.modjo.ai/en/articles/15459539-set-up-and-use-the-modjo-mcp"
+    },
+    "metadata": {
+      "vendor": "Modjo",
+      "server_url": "https://api.mcp.modjo.ai/v1/mcp",
+      "auth_type": "OAuth / Bearer Token",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "6a482beb-b13c-5f9a-a58d-c02d5134058b",
+    "entity_type": "mcp",
+    "name": "Pennylane MCP Server",
+    "description": "Pennylane's official MCP server for reading invoices, bank transactions, and accounting data.",
+    "url": "https://pennylane-mcp.readme.io/docs/getting-started",
+    "logo_url": "https://logo.clearbit.com/pennylane.com",
+    "categories": [
+      "Finance",
+      "MCP"
+    ],
+    "source": {
+      "name": "Pennylane MCP Docs",
+      "url": "https://pennylane-mcp.readme.io/docs/getting-started"
+    },
+    "metadata": {
+      "vendor": "Pennylane",
+      "server_url": "https://app.pennylane.com/mcp/messages",
+      "auth_type": "OAuth DCR",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "a3cbbd9f-09b7-5808-af3d-e9c1d0f7fd72",
+    "entity_type": "mcp",
+    "name": "Spendesk MCP Server",
+    "description": "Spendesk's official MCP server providing read-only access to company spend, invoice, and expense data.",
+    "url": "https://helpcenter.spendesk.com/en/articles/15052814-ask-your-spendesk-data-with-ai-mcp-getting-started-guide",
+    "logo_url": "https://logo.clearbit.com/spendesk.com",
+    "categories": [
+      "Finance",
+      "MCP"
+    ],
+    "source": {
+      "name": "Spendesk Help Center",
+      "url": "https://helpcenter.spendesk.com/en/articles/15052814-ask-your-spendesk-data-with-ai-mcp-getting-started-guide"
+    },
+    "metadata": {
+      "vendor": "Spendesk",
+      "server_url": "https://public-api.spendesk.com/v1/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "23ec1798-a497-5759-b367-dfb21162e296",
+    "entity_type": "mcp",
+    "name": "Statista MCP Server",
+    "description": "Statista's official MCP server for searching its catalog of market statistics and consumer-research data.",
+    "url": "https://docs.platform.statista.ai/mcp-server/introduction",
+    "logo_url": "https://logo.clearbit.com/statista.com",
+    "categories": [
+      "Data",
+      "MCP",
+      "Research"
+    ],
+    "source": {
+      "name": "Statista Platform Docs",
+      "url": "https://docs.platform.statista.ai/mcp-server/introduction"
+    },
+    "metadata": {
+      "vendor": "Statista",
+      "server_url": "https://api.statista.ai/v1/mcp",
+      "auth_type": "API Key",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "ec035e8c-9a09-5be4-9ac5-dcb200ef51a3",
+    "entity_type": "mcp",
+    "name": "Supercut MCP Server",
+    "description": "Supercut's official MCP server for searching video recordings and pulling transcripts, frames, and comments.",
+    "url": "https://help.supercut.ai/en/articles/15163981-model-context-protocol-mcp",
+    "logo_url": "https://logo.clearbit.com/supercut.ai",
+    "categories": [
+      "Creative",
+      "MCP",
+      "Videos"
+    ],
+    "source": {
+      "name": "Supercut Help Center",
+      "url": "https://help.supercut.ai/en/articles/15163981-model-context-protocol-mcp"
+    },
+    "metadata": {
+      "vendor": "Supercut",
+      "server_url": "https://mcp.supercut.ai/mcp",
+      "auth_type": "Bearer Token (API Key)",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  },
+  {
+    "id": "cad592ab-9dfd-5673-b95d-2f327057e028",
+    "entity_type": "mcp",
+    "name": "Superglue MCP Server",
+    "description": "Superglue's official MCP server for discovering and executing pre-built API integration tools.",
+    "url": "https://superglue.ai/docs/mcp/using-the-mcp",
+    "logo_url": "https://logo.clearbit.com/superglue.ai",
+    "categories": [
+      "Automation",
+      "Dev Tools",
+      "MCP"
+    ],
+    "source": {
+      "name": "Superglue Docs",
+      "url": "https://superglue.ai/docs/mcp/using-the-mcp"
+    },
+    "metadata": {
+      "vendor": "Superglue",
+      "server_url": "https://api.superglue.cloud/mcp",
+      "auth_type": "OAuth",
+      "transport": "Remote/HTTP",
+      "installation": "Remote endpoint",
+      "runtime_requirements": "Remote endpoint"
+    }
+  }
+]

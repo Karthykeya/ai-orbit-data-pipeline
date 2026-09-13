@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "entity_type": "company",
+    "name": "Anthropic / MCP Steering Group",
+    "description": "Maintainer of Filesystem and related products on modelcontextprotocol.io.",
+    "url": "https://modelcontextprotocol.io",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/examples"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "762d7d29-d86a-5857-98a3-03500d7c3ff9",
+    "entity_type": "company",
+    "name": "GitHub",
+    "description": "Maintainer of GitHub MCP Server and related products on github.com.",
+    "url": "https://github.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "GitHub Docs",
+      "url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "950845ab-bf59-51cf-88ad-372ecc10c618",
+    "entity_type": "company",
+    "name": "Notion",
+    "description": "Maintainer of Notion MCP Server and related products on notion.com.",
+    "url": "https://notion.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Notion Developers",
+      "url": "https://developers.notion.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "c044ee09-74a0-537e-8d48-5b50815b06f8",
+    "entity_type": "company",
+    "name": "Stripe",
+    "description": "Maintainer of Stripe MCP Server and related products on stripe.com.",
+    "url": "https://stripe.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Stripe Docs",
+      "url": "https://docs.stripe.com/stripe-apps/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "a3d4d19a-ebe6-5aa8-a720-5ca11f767e8c",
+    "entity_type": "company",
+    "name": "Linear",
+    "description": "Maintainer of Linear MCP Server and related products on linear.app.",
+    "url": "https://linear.app",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Linear Docs",
+      "url": "https://linear.app/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "40b7fed0-34c5-540a-8b69-ea561834bd68",
+    "entity_type": "company",
+    "name": "Slack",
+    "description": "Maintainer of Slack MCP Server and related products on slack.com.",
+    "url": "https://slack.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Slack Developer Docs",
+      "url": "https://docs.slack.dev/ai/slack-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "4651ea31-60b0-5590-bf82-4567c02b21ed",
+    "entity_type": "company",
+    "name": "Atlassian",
+    "description": "Maintainer of Atlassian Rovo MCP Server and related products on atlassian.com.",
+    "url": "https://atlassian.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Atlassian Support",
+      "url": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "ff940627-4641-512b-81d1-bf35f7915584",
+    "entity_type": "company",
+    "name": "HubSpot",
+    "description": "Maintainer of HubSpot MCP Server and related products on hubspot.com.",
+    "url": "https://hubspot.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "HubSpot Developers",
+      "url": "https://developers.hubspot.com/docs/guides/apps/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "4686c7f6-fe52-5947-ab2a-be39d264e804",
+    "entity_type": "company",
+    "name": "Supabase",
+    "description": "Maintainer of Supabase MCP Server and related products on supabase.com.",
+    "url": "https://supabase.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "8d3d7988-c65e-5ffe-9263-aca9241b7f8a",
+    "entity_type": "company",
+    "name": "Cloudflare",
+    "description": "Maintainer of Cloudflare Workers MCP Server and related products on cloudflare.com.",
+    "url": "https://cloudflare.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Cloudflare Developers",
+      "url": "https://developers.cloudflare.com/agents/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "38a901a6-e45d-5ca3-b910-3f4232203c35",
+    "entity_type": "company",
+    "name": "Vercel",
+    "description": "Maintainer of Vercel MCP Server and related products on vercel.com.",
+    "url": "https://vercel.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Vercel Docs",
+      "url": "https://vercel.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "22650054-6abb-59e0-98da-322ccb330b51",
+    "entity_type": "company",
+    "name": "Sentry",
+    "description": "Maintainer of Sentry MCP Server and related products on sentry.io.",
+    "url": "https://sentry.io",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Sentry Docs",
+      "url": "https://docs.sentry.io/product/sentry-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "e4b656e6-fe08-5fbb-8a86-484a639e982f",
+    "entity_type": "company",
+    "name": "PayPal",
+    "description": "Maintainer of PayPal MCP Server and related products on paypal.com.",
+    "url": "https://paypal.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "PayPal Developer",
+      "url": "https://developer.paypal.com/tools/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "43339b29-9b79-5160-8791-5b949486826f",
+    "entity_type": "company",
+    "name": "Asana",
+    "description": "Maintainer of Asana MCP Server and related products on asana.com.",
+    "url": "https://asana.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Asana Developers",
+      "url": "https://developers.asana.com/docs/using-asanas-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "b85d4c7b-5fba-5a92-8e3e-3928e7ab0997",
+    "entity_type": "company",
+    "name": "ClickUp",
+    "description": "Maintainer of ClickUp MCP Server and related products on clickup.com.",
+    "url": "https://clickup.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "ClickUp Developer Docs",
+      "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "370608e6-28d4-5f57-9b74-ff50fe3b2ab3",
+    "entity_type": "company",
+    "name": "monday.com",
+    "description": "Maintainer of monday.com MCP Server and related products on monday.com.",
+    "url": "https://monday.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "monday.com Support",
+      "url": "https://support.monday.com/hc/en-us/articles/28588158981266-Get-started-with-monday-MCP"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "d2e85a0f-24ca-5f05-a148-0a4b38d6945a",
+    "entity_type": "company",
+    "name": "Miro",
+    "description": "Maintainer of Miro MCP Server and related products on miro.com.",
+    "url": "https://miro.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Miro Developers",
+      "url": "https://developers.miro.com/docs/miro-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "d410b3c8-674e-545b-80c5-265b4679ac34",
+    "entity_type": "company",
+    "name": "Intercom",
+    "description": "Maintainer of Intercom MCP Server and related products on intercom.com.",
+    "url": "https://intercom.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Intercom Developers",
+      "url": "https://developers.intercom.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "893c9617-f7f5-5536-b52c-1bdbb41b4723",
+    "entity_type": "company",
+    "name": "PagerDuty",
+    "description": "Maintainer of PagerDuty MCP Server and related products on pagerduty.com.",
+    "url": "https://pagerduty.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "PagerDuty Support",
+      "url": "https://support.pagerduty.com/main/docs/pagerduty-mcp-server-integration-guide"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "0e022a38-bc3d-596c-a99d-13bde1ef6480",
+    "entity_type": "company",
+    "name": "Neon",
+    "description": "Maintainer of Neon MCP Server and related products on neon.tech.",
+    "url": "https://neon.tech",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Neon Docs",
+      "url": "https://neon.tech/docs/ai/neon-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "c5073280-ab9d-5907-ba84-402c7c67e748",
+    "entity_type": "company",
+    "name": "Netlify",
+    "description": "Maintainer of Netlify MCP Server and related products on netlify.com.",
+    "url": "https://netlify.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Netlify Docs",
+      "url": "https://docs.netlify.com/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "3facfa55-1969-54d0-ba15-972d4d19b966",
+    "entity_type": "company",
+    "name": "Prisma",
+    "description": "Maintainer of Prisma MCP Server and related products on prisma.io.",
+    "url": "https://prisma.io",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Prisma Docs",
+      "url": "https://www.prisma.io/docs/postgres/integrations/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "89e188c4-bf1b-591b-bda0-58f7d42246ed",
+    "entity_type": "company",
+    "name": "Render",
+    "description": "Maintainer of Render MCP Server and related products on render.com.",
+    "url": "https://render.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Render Docs",
+      "url": "https://render.com/docs/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "51503137-50fe-5405-a5b2-e3b6c36c66a2",
+    "entity_type": "company",
+    "name": "Replicate",
+    "description": "Maintainer of Replicate MCP Server and related products on replicate.com.",
+    "url": "https://replicate.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Replicate Docs",
+      "url": "https://replicate.com/docs/reference/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "23156f24-ceda-5869-85af-0dc2b33fdcc4",
+    "entity_type": "company",
+    "name": "Sanity",
+    "description": "Maintainer of Sanity MCP Server and related products on sanity.io.",
+    "url": "https://sanity.io",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Sanity Docs",
+      "url": "https://www.sanity.io/docs/compute-and-ai/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "61c81456-e5e5-5557-9935-47799eba5432",
+    "entity_type": "company",
+    "name": "Semgrep",
+    "description": "Maintainer of Semgrep MCP Server and related products on semgrep.dev.",
+    "url": "https://semgrep.dev",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Semgrep Docs",
+      "url": "https://semgrep.dev/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "62d65fed-a1ef-55ed-9bec-bda96c0cc4ad",
+    "entity_type": "company",
+    "name": "Square",
+    "description": "Maintainer of Square MCP Server and related products on squareup.com.",
+    "url": "https://squareup.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Square Developer",
+      "url": "https://developer.squareup.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "7123bf90-5f73-5525-9e84-b4e2b45f3546",
+    "entity_type": "company",
+    "name": "Stack Overflow",
+    "description": "Maintainer of Stack Overflow MCP Server and related products on stackoverflow.com.",
+    "url": "https://stackoverflow.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Stack Overflow Docs",
+      "url": "https://stackoverflow.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "acdf4918-236f-5e2d-a69c-8a89e0ed2e0a",
+    "entity_type": "company",
+    "name": "Typeform",
+    "description": "Maintainer of Typeform MCP Server and related products on typeform.com.",
+    "url": "https://typeform.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Typeform Developers",
+      "url": "https://www.typeform.com/developers/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "59e061e8-b145-560a-9298-55e0490e2b68",
+    "entity_type": "company",
+    "name": "Stytch",
+    "description": "Maintainer of Stytch MCP Server and related products on stytch.com.",
+    "url": "https://stytch.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Stytch Docs",
+      "url": "https://stytch.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "51f636ee-2be8-579b-a2b2-6544ddbe052d",
+    "entity_type": "company",
+    "name": "Zapier",
+    "description": "Maintainer of Zapier MCP Server and related products on zapier.com.",
+    "url": "https://zapier.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Zapier",
+      "url": "https://zapier.com/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "c8aa45be-8972-51d4-b10a-ca319fa418b0",
+    "entity_type": "company",
+    "name": "Wix",
+    "description": "Maintainer of Wix MCP Server and related products on wix.com.",
+    "url": "https://wix.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Wix Developers",
+      "url": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "669d7947-392a-5bf6-919c-964a1cd8ef3a",
+    "entity_type": "company",
+    "name": "Postman",
+    "description": "Maintainer of Postman MCP Server and related products on postman.com.",
+    "url": "https://postman.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Postman GitHub",
+      "url": "https://github.com/postmanlabs/postman-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "d62483ec-d617-5ed8-b43d-9e4aefd3d61b",
+    "entity_type": "company",
+    "name": "PostHog",
+    "description": "Maintainer of PostHog MCP Server and related products on posthog.com.",
+    "url": "https://posthog.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "PostHog Docs",
+      "url": "https://posthog.com/docs/model-context-protocol"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "7061f8f1-0869-563e-9142-784b58409ebf",
+    "entity_type": "company",
+    "name": "Pipedrive",
+    "description": "Maintainer of Pipedrive MCP Server and related products on pipedrive.com.",
+    "url": "https://pipedrive.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Pipedrive",
+      "url": "https://www.pipedrive.com/en/features/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "15ea82ed-d91f-5ec9-8307-e013505d2681",
+    "entity_type": "company",
+    "name": "Pipedream",
+    "description": "Maintainer of Pipedream MCP Server and related products on pipedream.com.",
+    "url": "https://pipedream.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Pipedream Docs",
+      "url": "https://pipedream.com/docs/connect/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "8acc5c3a-594c-530a-9648-b498407b9372",
+    "entity_type": "company",
+    "name": "Plaid",
+    "description": "Maintainer of Plaid MCP Server and related products on plaid.com.",
+    "url": "https://plaid.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Plaid Docs",
+      "url": "https://plaid.com/docs/resources"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "45fdbaf8-bdf3-58e9-b5cb-54b495ccc934",
+    "entity_type": "company",
+    "name": "Ramp",
+    "description": "Maintainer of Ramp MCP Server and related products on ramp.com.",
+    "url": "https://ramp.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Ramp Docs",
+      "url": "https://docs.ramp.com/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "9a1dffea-214d-596f-8a64-c3264d44128f",
+    "entity_type": "company",
+    "name": "Coda",
+    "description": "Maintainer of Coda MCP Server and related products on coda.io.",
+    "url": "https://coda.io",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Coda Guides",
+      "url": "https://coda.io/resources/guides/getting_started_with_coda_mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "a822c13f-6c79-59b4-b411-60d53b5b1a45",
+    "entity_type": "company",
+    "name": "Cloudinary",
+    "description": "Maintainer of Cloudinary MCP Server and related products on cloudinary.com.",
+    "url": "https://cloudinary.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Cloudinary Docs",
+      "url": "https://cloudinary.com/documentation/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "39a1083c-461e-5283-962d-09bf535d19a5",
+    "entity_type": "company",
+    "name": "Upstash (Context7)",
+    "description": "Maintainer of Context7 MCP Server and related products on context7.com.",
+    "url": "https://context7.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Context7 Docs",
+      "url": "https://context7.com/docs/resources/all-clients"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "ae3c9ae6-7d55-5549-b59d-9b4608885102",
+    "entity_type": "company",
+    "name": "Attio",
+    "description": "Maintainer of Attio MCP Server and related products on attio.com.",
+    "url": "https://attio.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Attio Docs",
+      "url": "https://attio.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "14f7e2c5-dd57-58e1-8c5d-0f12e5941e80",
+    "entity_type": "company",
+    "name": "Close",
+    "description": "Maintainer of Close CRM MCP Server and related products on close.com.",
+    "url": "https://close.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Close Help Center",
+      "url": "https://help.close.com/docs/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "b00a5f04-0649-5230-b31d-66433cb1fa1e",
+    "entity_type": "company",
+    "name": "Ashby",
+    "description": "Maintainer of Ashby MCP Server and related products on ashbyhq.com.",
+    "url": "https://ashbyhq.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Ashby Docs",
+      "url": "https://docs.ashbyhq.com/ashby-mcp-server-beta"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "85665e03-e124-5a91-a4fa-235e6b68633f",
+    "entity_type": "company",
+    "name": "Buildkite",
+    "description": "Maintainer of Buildkite MCP Server and related products on buildkite.com.",
+    "url": "https://buildkite.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Buildkite Docs",
+      "url": "https://buildkite.com/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "3a5bf7dd-12f6-5da9-8db4-627233e713c8",
+    "entity_type": "company",
+    "name": "Canva",
+    "description": "Maintainer of Canva MCP Server and related products on canva.com.",
+    "url": "https://canva.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Canva Developers",
+      "url": "https://www.canva.dev/docs/connect/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "fd27a082-2673-56b8-b651-a127dcabb273",
+    "entity_type": "company",
+    "name": "Apify",
+    "description": "Maintainer of Apify MCP Server and related products on apify.com.",
+    "url": "https://apify.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Apify Docs",
+      "url": "https://docs.apify.com/platform/integrations/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "57d24a65-2721-5ec0-8ced-2d6d7e65008c",
+    "entity_type": "company",
+    "name": "Amplitude",
+    "description": "Maintainer of Amplitude MCP Server and related products on amplitude.com.",
+    "url": "https://amplitude.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Amplitude Docs",
+      "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "38fbb01f-c425-597f-a0e7-3025146ba516",
+    "entity_type": "company",
+    "name": "Astro",
+    "description": "Maintainer of Astro Docs MCP Server and related products on astro.build.",
+    "url": "https://astro.build",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Astro Docs",
+      "url": "https://docs.astro.build/en/guides/build-with-ai"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "08e1368d-fab9-5c61-a639-71af30e2041a",
+    "entity_type": "company",
+    "name": "Braintrust",
+    "description": "Maintainer of Braintrust MCP Server and related products on braintrust.dev.",
+    "url": "https://braintrust.dev",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Braintrust Docs",
+      "url": "https://www.braintrust.dev/docs/deploy/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "6a3aeebb-292f-59d2-bbb4-561af0153068",
+    "entity_type": "company",
+    "name": "Browser Use",
+    "description": "Maintainer of Browser Use MCP Server and related products on browser-use.com.",
+    "url": "https://browser-use.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Browser Use Docs",
+      "url": "https://docs.browser-use.com/customize/integrations/mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "2bed2a3b-da58-5d82-89c2-a15631de1c65",
+    "entity_type": "company",
+    "name": "Devin AI (Cognition)",
+    "description": "Maintainer of DeepWiki MCP Server and related products on devin.ai.",
+    "url": "https://devin.ai",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Devin AI Docs",
+      "url": "https://docs.devin.ai/work-with-devin/deepwiki-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "a17986ac-1641-57d3-8fbb-bb408686b46c",
+    "entity_type": "company",
+    "name": "draw.io (JGraph)",
+    "description": "Maintainer of draw.io MCP Server and related products on drawio.com.",
+    "url": "https://drawio.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "draw.io Docs",
+      "url": "https://www.drawio.com/docs/manual/generate/drawio-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "9600ee6e-4135-5c7e-9d54-d9a2c166b6f2",
+    "entity_type": "company",
+    "name": "Excalidraw",
+    "description": "Maintainer of Excalidraw MCP Server and related products on excalidraw.com.",
+    "url": "https://excalidraw.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Excalidraw GitHub",
+      "url": "https://github.com/excalidraw/excalidraw-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "695936c1-4363-5a9f-990e-e83ce875ab99",
+    "entity_type": "company",
+    "name": "Fireflies.ai",
+    "description": "Maintainer of Fireflies.ai MCP Server and related products on fireflies.ai.",
+    "url": "https://fireflies.ai",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Fireflies Guide",
+      "url": "https://guide.fireflies.ai/docs/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "bc6977dd-3898-5234-9bec-1089ff8162ba",
+    "entity_type": "company",
+    "name": "Google",
+    "description": "Maintainer of Google Maps MCP Server and related products on google.com.",
+    "url": "https://google.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Google Maps Platform Docs",
+      "url": "https://developers.google.com/maps/ai/grounding-lite/reference/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "9f594dcb-b8d6-5c79-9323-7d42600527a9",
+    "entity_type": "company",
+    "name": "Honeycomb",
+    "description": "Maintainer of Honeycomb MCP Server and related products on honeycomb.io.",
+    "url": "https://honeycomb.io",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Honeycomb Docs",
+      "url": "https://docs.honeycomb.io/integrations/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "4bebf922-c6fb-56eb-bc55-5d9f9f8f44d1",
+    "entity_type": "company",
+    "name": "Hugging Face",
+    "description": "Maintainer of Hugging Face MCP Server and related products on huggingface.co.",
+    "url": "https://huggingface.co",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Hugging Face Docs",
+      "url": "https://huggingface.co/docs/hub/en/hf-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "61a70209-b85b-5516-88c0-e6244b417905",
+    "entity_type": "company",
+    "name": "Instant",
+    "description": "Maintainer of InstantDB MCP Server and related products on instantdb.com.",
+    "url": "https://instantdb.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "InstantDB Docs",
+      "url": "https://www.instantdb.com/docs/using-llms"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "4fd53629-def0-5a19-9c9f-68c4906ba2fd",
+    "entity_type": "company",
+    "name": "Jamie",
+    "description": "Maintainer of Jamie MCP Server and related products on meetjamie.ai.",
+    "url": "https://meetjamie.ai",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Jamie Docs",
+      "url": "https://docs.meetjamie.ai/integrations/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "4b3fc314-3c2e-5062-9f69-59b27a19272f",
+    "entity_type": "company",
+    "name": "Leadfeeder",
+    "description": "Maintainer of Leadfeeder MCP Server and related products on leadfeeder.com.",
+    "url": "https://leadfeeder.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Leadfeeder Help Center",
+      "url": "https://help.leadfeeder.com/en/articles/15532431-connect-leadfeeder-to-your-ai-tool-with-the-mcp-server"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "d0b39a41-33d3-5eea-9b73-1b15938c8c67",
+    "entity_type": "company",
+    "name": "Microsoft",
+    "description": "Maintainer of Microsoft Learn Docs MCP Server and related products on microsoft.com.",
+    "url": "https://microsoft.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/support/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  },
+  {
+    "id": "d830db3a-307d-5620-8c3b-158b522105e7",
+    "entity_type": "company",
+    "name": "Mobbin",
+    "description": "Maintainer of Mobbin MCP Server and related products on mobbin.com.",
+    "url": "https://mobbin.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Mobbin",
+      "url": "https://mobbin.com/mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "2fb082e7-8ca4-5e8c-b053-97d57b4fb333",
+    "entity_type": "company",
+    "name": "Modjo",
+    "description": "Maintainer of Modjo MCP Server and related products on modjo.ai.",
+    "url": "https://modjo.ai",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Modjo Help Center",
+      "url": "https://help.modjo.ai/en/articles/15459539-set-up-and-use-the-modjo-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "a6073c42-35ec-5a10-b0f4-0990ff8c5065",
+    "entity_type": "company",
+    "name": "Pennylane",
+    "description": "Maintainer of Pennylane MCP Server and related products on pennylane.com.",
+    "url": "https://pennylane.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Pennylane MCP Docs",
+      "url": "https://pennylane-mcp.readme.io/docs/getting-started"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "53555462-3c4a-54b8-83e4-db6ac254b103",
+    "entity_type": "company",
+    "name": "Spendesk",
+    "description": "Maintainer of Spendesk MCP Server and related products on spendesk.com.",
+    "url": "https://spendesk.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Spendesk Help Center",
+      "url": "https://helpcenter.spendesk.com/en/articles/15052814-ask-your-spendesk-data-with-ai-mcp-getting-started-guide"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "d2f671ab-cbf0-5ac0-812d-28fb0065ff26",
+    "entity_type": "company",
+    "name": "Statista",
+    "description": "Maintainer of Statista MCP Server and related products on statista.com.",
+    "url": "https://statista.com",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Statista Platform Docs",
+      "url": "https://docs.platform.statista.ai/mcp-server/introduction"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "fab06cc3-d5b3-57c3-acc5-4b94914524c8",
+    "entity_type": "company",
+    "name": "Supercut",
+    "description": "Maintainer of Supercut MCP Server and related products on supercut.ai.",
+    "url": "https://supercut.ai",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Supercut Help Center",
+      "url": "https://help.supercut.ai/en/articles/15163981-model-context-protocol-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "Software"
+  },
+  {
+    "id": "f9a40176-2764-598d-86ad-2686db2ebcf4",
+    "entity_type": "company",
+    "name": "Superglue",
+    "description": "Maintainer of Superglue MCP Server and related products on superglue.ai.",
+    "url": "https://superglue.ai",
+    "categories": [
+      "Company"
+    ],
+    "source": {
+      "name": "Superglue Docs",
+      "url": "https://superglue.ai/docs/mcp/using-the-mcp"
+    },
+    "headquarters": null,
+    "founding_year": null,
+    "industry_sector": "AI / Developer Tools"
+  }
+]

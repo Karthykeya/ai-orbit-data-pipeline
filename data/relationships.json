@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "caf0bb35-d90d-56ec-8fee-640435efd97a",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "2e9404a0-3c45-59fc-9889-42fcfcfdaabd",
+    "target_type": "mcp"
+  },
+  {
+    "id": "16c62fd5-f921-55be-9d32-21a9db2f800e",
+    "type": "integrates_with",
+    "source_id": "2e9404a0-3c45-59fc-9889-42fcfcfdaabd",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Filesystem integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "bd85eaed-71c4-5fb3-b6f0-53b3672d70e2",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "bf5cc3cc-9b75-5fea-8f19-743c0bb0f49c",
+    "target_type": "mcp"
+  },
+  {
+    "id": "fccbae00-4183-5c06-8b0d-4dbd35d3329d",
+    "type": "integrates_with",
+    "source_id": "bf5cc3cc-9b75-5fea-8f19-743c0bb0f49c",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Fetch integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "24a911dd-3a61-5d97-a401-80773bb7a269",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "615ed74f-774b-5e57-9cc3-41210ed86553",
+    "target_type": "mcp"
+  },
+  {
+    "id": "864604fb-55a8-5202-9d2a-cf83b24a5382",
+    "type": "integrates_with",
+    "source_id": "615ed74f-774b-5e57-9cc3-41210ed86553",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Git integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "4d6d3caf-3303-5d84-a1c2-8acc3108a45f",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "833f4992-6c03-56d5-ba25-783410b18738",
+    "target_type": "mcp"
+  },
+  {
+    "id": "31c0820c-8ac3-5ee4-93c5-11342da7c700",
+    "type": "integrates_with",
+    "source_id": "833f4992-6c03-56d5-ba25-783410b18738",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Memory integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "fc7897f2-14a4-57b1-a268-7684a5a88fb7",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "18f73a78-efb5-5bb0-abcc-2e1407196932",
+    "target_type": "mcp"
+  },
+  {
+    "id": "5737a18e-e46b-5a56-b9a7-d3df4757d52a",
+    "type": "integrates_with",
+    "source_id": "18f73a78-efb5-5bb0-abcc-2e1407196932",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Sequential Thinking integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "b596c539-ddf6-50ec-8959-927eef9463ab",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "44f1f9fb-bf24-549c-a4b6-94c79bf14406",
+    "target_type": "mcp"
+  },
+  {
+    "id": "0edb7a6d-cce4-5e4c-9112-f06f53742a02",
+    "type": "integrates_with",
+    "source_id": "44f1f9fb-bf24-549c-a4b6-94c79bf14406",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Time integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "cb868458-e736-5379-bd11-fe98ce4a0da4",
+    "type": "develops",
+    "source_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "source_type": "company",
+    "target_id": "a29f8840-aa24-5d70-a4e6-9a013a681744",
+    "target_type": "mcp"
+  },
+  {
+    "id": "a6680378-9734-54d1-906c-b3d4214e4b5c",
+    "type": "integrates_with",
+    "source_id": "a29f8840-aa24-5d70-a4e6-9a013a681744",
+    "source_type": "mcp",
+    "target_id": "e532e093-ab94-5b25-a845-18f409a13e5c",
+    "target_type": "tool",
+    "note": "Everything integrates with Anthropic / MCP Steering Group's own platform/API."
+  },
+  {
+    "id": "46a044c6-3ac8-5969-9cd3-d4dfabf483c7",
+    "type": "develops",
+    "source_id": "762d7d29-d86a-5857-98a3-03500d7c3ff9",
+    "source_type": "company",
+    "target_id": "27e2ccd8-cb7a-57d0-8eba-e3da57d7fd97",
+    "target_type": "mcp"
+  },
+  {
+    "id": "66e07f71-6ba6-53a4-85e6-ecafcf4906fa",
+    "type": "integrates_with",
+    "source_id": "27e2ccd8-cb7a-57d0-8eba-e3da57d7fd97",
+    "source_type": "mcp",
+    "target_id": "762d7d29-d86a-5857-98a3-03500d7c3ff9",
+    "target_type": "tool",
+    "note": "GitHub MCP Server integrates with GitHub's own platform/API."
+  },
+  {
+    "id": "712dc77f-57ba-5981-b285-a15a348118b9",
+    "type": "develops",
+    "source_id": "950845ab-bf59-51cf-88ad-372ecc10c618",
+    "source_type": "company",
+    "target_id": "ae25362c-54d3-57a8-9626-a857fca0caae",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e2a0269c-9350-50ca-a0e6-00352bb8546f",
+    "type": "integrates_with",
+    "source_id": "ae25362c-54d3-57a8-9626-a857fca0caae",
+    "source_type": "mcp",
+    "target_id": "950845ab-bf59-51cf-88ad-372ecc10c618",
+    "target_type": "tool",
+    "note": "Notion MCP Server integrates with Notion's own platform/API."
+  },
+  {
+    "id": "aff12f25-a110-591f-beb2-66b37673484b",
+    "type": "develops",
+    "source_id": "c044ee09-74a0-537e-8d48-5b50815b06f8",
+    "source_type": "company",
+    "target_id": "774d4c14-3737-5e46-9741-7b624d21d377",
+    "target_type": "mcp"
+  },
+  {
+    "id": "834dca24-bc0d-5ee4-9734-7addadee771c",
+    "type": "integrates_with",
+    "source_id": "774d4c14-3737-5e46-9741-7b624d21d377",
+    "source_type": "mcp",
+    "target_id": "c044ee09-74a0-537e-8d48-5b50815b06f8",
+    "target_type": "tool",
+    "note": "Stripe MCP Server integrates with Stripe's own platform/API."
+  },
+  {
+    "id": "7adf4c42-5b5b-53ca-aeee-f119f442a6b6",
+    "type": "develops",
+    "source_id": "a3d4d19a-ebe6-5aa8-a720-5ca11f767e8c",
+    "source_type": "company",
+    "target_id": "5f4f5237-f49f-5ff6-8d20-50f3eb1c0865",
+    "target_type": "mcp"
+  },
+  {
+    "id": "1bfd5177-f255-5906-bda7-3c28d737f0e1",
+    "type": "integrates_with",
+    "source_id": "5f4f5237-f49f-5ff6-8d20-50f3eb1c0865",
+    "source_type": "mcp",
+    "target_id": "a3d4d19a-ebe6-5aa8-a720-5ca11f767e8c",
+    "target_type": "tool",
+    "note": "Linear MCP Server integrates with Linear's own platform/API."
+  },
+  {
+    "id": "cb0a33e7-4fa3-52e3-bdff-7bc700bd438a",
+    "type": "develops",
+    "source_id": "40b7fed0-34c5-540a-8b69-ea561834bd68",
+    "source_type": "company",
+    "target_id": "02b55425-d8d1-5203-8f35-53ab9b88d09f",
+    "target_type": "mcp"
+  },
+  {
+    "id": "d96c617b-84c0-56c5-8abf-88b964a76459",
+    "type": "integrates_with",
+    "source_id": "02b55425-d8d1-5203-8f35-53ab9b88d09f",
+    "source_type": "mcp",
+    "target_id": "40b7fed0-34c5-540a-8b69-ea561834bd68",
+    "target_type": "tool",
+    "note": "Slack MCP Server integrates with Slack's own platform/API."
+  },
+  {
+    "id": "708c14c5-df52-592d-ae13-a86751633587",
+    "type": "develops",
+    "source_id": "4651ea31-60b0-5590-bf82-4567c02b21ed",
+    "source_type": "company",
+    "target_id": "202bb3e6-bfdd-5975-89b3-1385cde3faae",
+    "target_type": "mcp"
+  },
+  {
+    "id": "98770241-6762-5d91-a923-68724a844fb5",
+    "type": "integrates_with",
+    "source_id": "202bb3e6-bfdd-5975-89b3-1385cde3faae",
+    "source_type": "mcp",
+    "target_id": "4651ea31-60b0-5590-bf82-4567c02b21ed",
+    "target_type": "tool",
+    "note": "Atlassian Rovo MCP Server integrates with Atlassian's own platform/API."
+  },
+  {
+    "id": "5154fb24-e1bc-5c6c-a4a7-95808127c73d",
+    "type": "develops",
+    "source_id": "ff940627-4641-512b-81d1-bf35f7915584",
+    "source_type": "company",
+    "target_id": "9c4dbab8-1300-58d1-ac5f-9d823ae432cc",
+    "target_type": "mcp"
+  },
+  {
+    "id": "0a8a5ab7-a4cb-5579-923f-07710933f92a",
+    "type": "integrates_with",
+    "source_id": "9c4dbab8-1300-58d1-ac5f-9d823ae432cc",
+    "source_type": "mcp",
+    "target_id": "ff940627-4641-512b-81d1-bf35f7915584",
+    "target_type": "tool",
+    "note": "HubSpot MCP Server integrates with HubSpot's own platform/API."
+  },
+  {
+    "id": "857ebdd3-5c9e-5cf0-90aa-ab13423c024a",
+    "type": "develops",
+    "source_id": "4686c7f6-fe52-5947-ab2a-be39d264e804",
+    "source_type": "company",
+    "target_id": "77a7d4f0-9bcc-568d-86b7-f8b0d658fde1",
+    "target_type": "mcp"
+  },
+  {
+    "id": "f2fe755a-feab-58ec-a4f4-df3013ec2777",
+    "type": "integrates_with",
+    "source_id": "77a7d4f0-9bcc-568d-86b7-f8b0d658fde1",
+    "source_type": "mcp",
+    "target_id": "4686c7f6-fe52-5947-ab2a-be39d264e804",
+    "target_type": "tool",
+    "note": "Supabase MCP Server integrates with Supabase's own platform/API."
+  },
+  {
+    "id": "335f34b8-01d5-587a-827e-ba044cb077d1",
+    "type": "develops",
+    "source_id": "8d3d7988-c65e-5ffe-9263-aca9241b7f8a",
+    "source_type": "company",
+    "target_id": "6f85e3d8-7462-5d83-90d7-fe10a11aa816",
+    "target_type": "mcp"
+  },
+  {
+    "id": "8cf1d392-8967-5ead-b655-411c4f57cbe8",
+    "type": "integrates_with",
+    "source_id": "6f85e3d8-7462-5d83-90d7-fe10a11aa816",
+    "source_type": "mcp",
+    "target_id": "8d3d7988-c65e-5ffe-9263-aca9241b7f8a",
+    "target_type": "tool",
+    "note": "Cloudflare Workers MCP Server integrates with Cloudflare's own platform/API."
+  },
+  {
+    "id": "24a8e700-38b5-5800-9c98-64605b80accb",
+    "type": "develops",
+    "source_id": "38a901a6-e45d-5ca3-b910-3f4232203c35",
+    "source_type": "company",
+    "target_id": "cefcd000-d6c9-54f0-92ab-d03ceac98a9e",
+    "target_type": "mcp"
+  },
+  {
+    "id": "df2008b5-0a71-5d7d-9659-265bd4429f92",
+    "type": "integrates_with",
+    "source_id": "cefcd000-d6c9-54f0-92ab-d03ceac98a9e",
+    "source_type": "mcp",
+    "target_id": "38a901a6-e45d-5ca3-b910-3f4232203c35",
+    "target_type": "tool",
+    "note": "Vercel MCP Server integrates with Vercel's own platform/API."
+  },
+  {
+    "id": "1eda2c86-76b6-5253-88b0-a85b434d5de1",
+    "type": "develops",
+    "source_id": "22650054-6abb-59e0-98da-322ccb330b51",
+    "source_type": "company",
+    "target_id": "8918411e-9ae9-5cfe-b0f0-5122e359432c",
+    "target_type": "mcp"
+  },
+  {
+    "id": "43db0b66-5cc4-51ec-8232-bf5e28c4086b",
+    "type": "integrates_with",
+    "source_id": "8918411e-9ae9-5cfe-b0f0-5122e359432c",
+    "source_type": "mcp",
+    "target_id": "22650054-6abb-59e0-98da-322ccb330b51",
+    "target_type": "tool",
+    "note": "Sentry MCP Server integrates with Sentry's own platform/API."
+  },
+  {
+    "id": "5c6acba9-2ed8-50ec-87c6-4e828277e9e3",
+    "type": "develops",
+    "source_id": "e4b656e6-fe08-5fbb-8a86-484a639e982f",
+    "source_type": "company",
+    "target_id": "8ebb6264-fa6c-5b0f-b4e5-c24b1039d089",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e741e115-d6a8-5d43-b8d5-b4c426d95951",
+    "type": "integrates_with",
+    "source_id": "8ebb6264-fa6c-5b0f-b4e5-c24b1039d089",
+    "source_type": "mcp",
+    "target_id": "e4b656e6-fe08-5fbb-8a86-484a639e982f",
+    "target_type": "tool",
+    "note": "PayPal MCP Server integrates with PayPal's own platform/API."
+  },
+  {
+    "id": "7714c495-5b13-59ec-a096-2d313eff38f2",
+    "type": "develops",
+    "source_id": "43339b29-9b79-5160-8791-5b949486826f",
+    "source_type": "company",
+    "target_id": "42e6b3bf-1554-5a60-a40c-bfa287e8dda0",
+    "target_type": "mcp"
+  },
+  {
+    "id": "26df9359-816b-5947-b85e-f9023e9e769d",
+    "type": "integrates_with",
+    "source_id": "42e6b3bf-1554-5a60-a40c-bfa287e8dda0",
+    "source_type": "mcp",
+    "target_id": "43339b29-9b79-5160-8791-5b949486826f",
+    "target_type": "tool",
+    "note": "Asana MCP Server integrates with Asana's own platform/API."
+  },
+  {
+    "id": "3aa0f57d-c4d6-53bd-bd64-8ff8acbce7c8",
+    "type": "develops",
+    "source_id": "b85d4c7b-5fba-5a92-8e3e-3928e7ab0997",
+    "source_type": "company",
+    "target_id": "862dbf77-a503-5593-8c36-9acc212ed564",
+    "target_type": "mcp"
+  },
+  {
+    "id": "df578de7-29bb-5d99-8c94-fb40e43409f9",
+    "type": "integrates_with",
+    "source_id": "862dbf77-a503-5593-8c36-9acc212ed564",
+    "source_type": "mcp",
+    "target_id": "b85d4c7b-5fba-5a92-8e3e-3928e7ab0997",
+    "target_type": "tool",
+    "note": "ClickUp MCP Server integrates with ClickUp's own platform/API."
+  },
+  {
+    "id": "338be880-f13a-5351-ad8f-e099871eab90",
+    "type": "develops",
+    "source_id": "370608e6-28d4-5f57-9b74-ff50fe3b2ab3",
+    "source_type": "company",
+    "target_id": "e4eef444-8ef4-535f-be0d-d492f7cf7815",
+    "target_type": "mcp"
+  },
+  {
+    "id": "a9bcc0fd-07f8-5f60-a7da-5747bceb5131",
+    "type": "integrates_with",
+    "source_id": "e4eef444-8ef4-535f-be0d-d492f7cf7815",
+    "source_type": "mcp",
+    "target_id": "370608e6-28d4-5f57-9b74-ff50fe3b2ab3",
+    "target_type": "tool",
+    "note": "monday.com MCP Server integrates with monday.com's own platform/API."
+  },
+  {
+    "id": "d7cf202a-364e-5090-8639-3d4f6238a7e5",
+    "type": "develops",
+    "source_id": "d2e85a0f-24ca-5f05-a148-0a4b38d6945a",
+    "source_type": "company",
+    "target_id": "cc0a4177-59d8-5fcc-89a6-2d8d8450cbe7",
+    "target_type": "mcp"
+  },
+  {
+    "id": "fa7a8526-a2aa-5f35-8409-8c9b9cf33560",
+    "type": "integrates_with",
+    "source_id": "cc0a4177-59d8-5fcc-89a6-2d8d8450cbe7",
+    "source_type": "mcp",
+    "target_id": "d2e85a0f-24ca-5f05-a148-0a4b38d6945a",
+    "target_type": "tool",
+    "note": "Miro MCP Server integrates with Miro's own platform/API."
+  },
+  {
+    "id": "9fe1c770-0884-5795-82b7-7559e61e6b7f",
+    "type": "develops",
+    "source_id": "d410b3c8-674e-545b-80c5-265b4679ac34",
+    "source_type": "company",
+    "target_id": "9dbd7e00-6806-5ae3-afe2-085af6d8b2a0",
+    "target_type": "mcp"
+  },
+  {
+    "id": "c9378761-f21d-58ec-9850-1bf775415f7d",
+    "type": "integrates_with",
+    "source_id": "9dbd7e00-6806-5ae3-afe2-085af6d8b2a0",
+    "source_type": "mcp",
+    "target_id": "d410b3c8-674e-545b-80c5-265b4679ac34",
+    "target_type": "tool",
+    "note": "Intercom MCP Server integrates with Intercom's own platform/API."
+  },
+  {
+    "id": "60d6a38c-69dd-5b69-87d6-d8e167277600",
+    "type": "develops",
+    "source_id": "893c9617-f7f5-5536-b52c-1bdbb41b4723",
+    "source_type": "company",
+    "target_id": "0c64b1c0-59c0-5b61-b33d-ef82074c8ec3",
+    "target_type": "mcp"
+  },
+  {
+    "id": "2438b1ff-0604-5ab6-bac7-ae3df8fe5c48",
+    "type": "integrates_with",
+    "source_id": "0c64b1c0-59c0-5b61-b33d-ef82074c8ec3",
+    "source_type": "mcp",
+    "target_id": "893c9617-f7f5-5536-b52c-1bdbb41b4723",
+    "target_type": "tool",
+    "note": "PagerDuty MCP Server integrates with PagerDuty's own platform/API."
+  },
+  {
+    "id": "8e88f6d7-706b-5eeb-af9b-0a397765e5ca",
+    "type": "develops",
+    "source_id": "0e022a38-bc3d-596c-a99d-13bde1ef6480",
+    "source_type": "company",
+    "target_id": "a50d0b99-78e4-5811-86c2-98db46c5891d",
+    "target_type": "mcp"
+  },
+  {
+    "id": "df517f40-430f-5d40-ab3c-90ad8ee5f448",
+    "type": "integrates_with",
+    "source_id": "a50d0b99-78e4-5811-86c2-98db46c5891d",
+    "source_type": "mcp",
+    "target_id": "0e022a38-bc3d-596c-a99d-13bde1ef6480",
+    "target_type": "tool",
+    "note": "Neon MCP Server integrates with Neon's own platform/API."
+  },
+  {
+    "id": "34b40bd1-d27f-5e8e-a81f-2af65c1fcdbc",
+    "type": "develops",
+    "source_id": "c5073280-ab9d-5907-ba84-402c7c67e748",
+    "source_type": "company",
+    "target_id": "6cc9858e-dd80-524a-a368-7e9ff7212d3a",
+    "target_type": "mcp"
+  },
+  {
+    "id": "b5e09b5c-392b-5604-b3e8-d91ea5d03c1f",
+    "type": "integrates_with",
+    "source_id": "6cc9858e-dd80-524a-a368-7e9ff7212d3a",
+    "source_type": "mcp",
+    "target_id": "c5073280-ab9d-5907-ba84-402c7c67e748",
+    "target_type": "tool",
+    "note": "Netlify MCP Server integrates with Netlify's own platform/API."
+  },
+  {
+    "id": "d1ce0ce4-f02f-505c-b634-3547065e8a47",
+    "type": "develops",
+    "source_id": "3facfa55-1969-54d0-ba15-972d4d19b966",
+    "source_type": "company",
+    "target_id": "b3027500-21f3-5136-b4ba-4cb84317ce53",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e2abdd05-1a0a-54cf-9dcc-61bcafbd0fd3",
+    "type": "integrates_with",
+    "source_id": "b3027500-21f3-5136-b4ba-4cb84317ce53",
+    "source_type": "mcp",
+    "target_id": "3facfa55-1969-54d0-ba15-972d4d19b966",
+    "target_type": "tool",
+    "note": "Prisma MCP Server integrates with Prisma's own platform/API."
+  },
+  {
+    "id": "b43e2aef-e404-511d-a63a-ae6225c8a64f",
+    "type": "develops",
+    "source_id": "89e188c4-bf1b-591b-bda0-58f7d42246ed",
+    "source_type": "company",
+    "target_id": "6ef9ea16-d4a5-558b-b982-d426ed6dc3b0",
+    "target_type": "mcp"
+  },
+  {
+    "id": "db408065-ebdf-5c7e-b5d5-27453a6a3bc9",
+    "type": "integrates_with",
+    "source_id": "6ef9ea16-d4a5-558b-b982-d426ed6dc3b0",
+    "source_type": "mcp",
+    "target_id": "89e188c4-bf1b-591b-bda0-58f7d42246ed",
+    "target_type": "tool",
+    "note": "Render MCP Server integrates with Render's own platform/API."
+  },
+  {
+    "id": "e5f8e0c7-d24b-5295-b1ed-e7e1c7795750",
+    "type": "develops",
+    "source_id": "51503137-50fe-5405-a5b2-e3b6c36c66a2",
+    "source_type": "company",
+    "target_id": "9841085c-6496-5c78-93b7-63ae745a46d4",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e3b288ec-7afb-5785-8435-270eaaec147e",
+    "type": "integrates_with",
+    "source_id": "9841085c-6496-5c78-93b7-63ae745a46d4",
+    "source_type": "mcp",
+    "target_id": "51503137-50fe-5405-a5b2-e3b6c36c66a2",
+    "target_type": "tool",
+    "note": "Replicate MCP Server integrates with Replicate's own platform/API."
+  },
+  {
+    "id": "cfabfa36-106c-5630-964d-2009811af825",
+    "type": "develops",
+    "source_id": "23156f24-ceda-5869-85af-0dc2b33fdcc4",
+    "source_type": "company",
+    "target_id": "0dc073a0-40ae-5ef0-a566-e2e90685bc4c",
+    "target_type": "mcp"
+  },
+  {
+    "id": "fe9fc47d-5b66-5127-8fb6-d5619604a2c2",
+    "type": "integrates_with",
+    "source_id": "0dc073a0-40ae-5ef0-a566-e2e90685bc4c",
+    "source_type": "mcp",
+    "target_id": "23156f24-ceda-5869-85af-0dc2b33fdcc4",
+    "target_type": "tool",
+    "note": "Sanity MCP Server integrates with Sanity's own platform/API."
+  },
+  {
+    "id": "dde30850-a521-561d-aa91-4ac6c4afc2b0",
+    "type": "develops",
+    "source_id": "61c81456-e5e5-5557-9935-47799eba5432",
+    "source_type": "company",
+    "target_id": "0f4ea43d-8877-5041-9fb4-c28ed49e9927",
+    "target_type": "mcp"
+  },
+  {
+    "id": "327555f5-4da5-5890-878b-086b63ec5bde",
+    "type": "integrates_with",
+    "source_id": "0f4ea43d-8877-5041-9fb4-c28ed49e9927",
+    "source_type": "mcp",
+    "target_id": "61c81456-e5e5-5557-9935-47799eba5432",
+    "target_type": "tool",
+    "note": "Semgrep MCP Server integrates with Semgrep's own platform/API."
+  },
+  {
+    "id": "4005a0e6-db18-5ee6-bb4d-26310fc0a129",
+    "type": "develops",
+    "source_id": "62d65fed-a1ef-55ed-9bec-bda96c0cc4ad",
+    "source_type": "company",
+    "target_id": "e9a9b2df-52fd-51a4-a8c5-0aa73b2c3cb4",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e8b48d94-e998-53b1-b597-5fa10ce385d5",
+    "type": "integrates_with",
+    "source_id": "e9a9b2df-52fd-51a4-a8c5-0aa73b2c3cb4",
+    "source_type": "mcp",
+    "target_id": "62d65fed-a1ef-55ed-9bec-bda96c0cc4ad",
+    "target_type": "tool",
+    "note": "Square MCP Server integrates with Square's own platform/API."
+  },
+  {
+    "id": "3d2eb341-2af9-56a5-972f-3afb4353c19b",
+    "type": "develops",
+    "source_id": "7123bf90-5f73-5525-9e84-b4e2b45f3546",
+    "source_type": "company",
+    "target_id": "ea2b56d7-a164-5aec-ab71-2375d48bc6bb",
+    "target_type": "mcp"
+  },
+  {
+    "id": "328da06b-1bae-5471-9d94-808387419870",
+    "type": "integrates_with",
+    "source_id": "ea2b56d7-a164-5aec-ab71-2375d48bc6bb",
+    "source_type": "mcp",
+    "target_id": "7123bf90-5f73-5525-9e84-b4e2b45f3546",
+    "target_type": "tool",
+    "note": "Stack Overflow MCP Server integrates with Stack Overflow's own platform/API."
+  },
+  {
+    "id": "89955158-4018-5203-8856-10a3c08fcd5a",
+    "type": "develops",
+    "source_id": "acdf4918-236f-5e2d-a69c-8a89e0ed2e0a",
+    "source_type": "company",
+    "target_id": "e91835d1-7936-5bc1-a79e-b757f9fc79dc",
+    "target_type": "mcp"
+  },
+  {
+    "id": "022136f7-674e-561f-b1dd-b8d783ae4864",
+    "type": "integrates_with",
+    "source_id": "e91835d1-7936-5bc1-a79e-b757f9fc79dc",
+    "source_type": "mcp",
+    "target_id": "acdf4918-236f-5e2d-a69c-8a89e0ed2e0a",
+    "target_type": "tool",
+    "note": "Typeform MCP Server integrates with Typeform's own platform/API."
+  },
+  {
+    "id": "480f6d81-6493-5e84-a6a1-597da9701eb4",
+    "type": "develops",
+    "source_id": "59e061e8-b145-560a-9298-55e0490e2b68",
+    "source_type": "company",
+    "target_id": "329ea259-49c5-5c36-bbf6-269c496fdc76",
+    "target_type": "mcp"
+  },
+  {
+    "id": "091f81db-519c-5119-8136-9c5711f187ab",
+    "type": "integrates_with",
+    "source_id": "329ea259-49c5-5c36-bbf6-269c496fdc76",
+    "source_type": "mcp",
+    "target_id": "59e061e8-b145-560a-9298-55e0490e2b68",
+    "target_type": "tool",
+    "note": "Stytch MCP Server integrates with Stytch's own platform/API."
+  },
+  {
+    "id": "92fe42ff-d6df-55bf-8913-71ff99d9e6c4",
+    "type": "develops",
+    "source_id": "51f636ee-2be8-579b-a2b2-6544ddbe052d",
+    "source_type": "company",
+    "target_id": "a7b0b02d-8ec6-54d9-8644-ade0f280a9cf",
+    "target_type": "mcp"
+  },
+  {
+    "id": "698e8488-de0e-575c-8bab-1a0e200a346b",
+    "type": "integrates_with",
+    "source_id": "a7b0b02d-8ec6-54d9-8644-ade0f280a9cf",
+    "source_type": "mcp",
+    "target_id": "51f636ee-2be8-579b-a2b2-6544ddbe052d",
+    "target_type": "tool",
+    "note": "Zapier MCP Server integrates with Zapier's own platform/API."
+  },
+  {
+    "id": "ce055bb9-1388-5501-962b-5333eef51313",
+    "type": "develops",
+    "source_id": "c8aa45be-8972-51d4-b10a-ca319fa418b0",
+    "source_type": "company",
+    "target_id": "c010a9ed-311c-54ac-bd9b-0b84a0370f5d",
+    "target_type": "mcp"
+  },
+  {
+    "id": "4627bb73-0692-5b05-8824-e6aaf901592f",
+    "type": "integrates_with",
+    "source_id": "c010a9ed-311c-54ac-bd9b-0b84a0370f5d",
+    "source_type": "mcp",
+    "target_id": "c8aa45be-8972-51d4-b10a-ca319fa418b0",
+    "target_type": "tool",
+    "note": "Wix MCP Server integrates with Wix's own platform/API."
+  },
+  {
+    "id": "c631d68e-8e53-5537-b24d-c4ceb3bf2e13",
+    "type": "develops",
+    "source_id": "669d7947-392a-5bf6-919c-964a1cd8ef3a",
+    "source_type": "company",
+    "target_id": "c98af7bc-11c3-5e4d-95c3-1b42e2dcbadf",
+    "target_type": "mcp"
+  },
+  {
+    "id": "3873e03a-6c80-57a9-8a28-1ee2d6a00180",
+    "type": "integrates_with",
+    "source_id": "c98af7bc-11c3-5e4d-95c3-1b42e2dcbadf",
+    "source_type": "mcp",
+    "target_id": "669d7947-392a-5bf6-919c-964a1cd8ef3a",
+    "target_type": "tool",
+    "note": "Postman MCP Server integrates with Postman's own platform/API."
+  },
+  {
+    "id": "30387815-fd42-5adb-868d-5d54bafac6d8",
+    "type": "develops",
+    "source_id": "d62483ec-d617-5ed8-b43d-9e4aefd3d61b",
+    "source_type": "company",
+    "target_id": "fa6ff997-58d6-5556-899a-d8df4ce74224",
+    "target_type": "mcp"
+  },
+  {
+    "id": "80dfc0a7-1392-57c1-8f94-86c03fbf998c",
+    "type": "integrates_with",
+    "source_id": "fa6ff997-58d6-5556-899a-d8df4ce74224",
+    "source_type": "mcp",
+    "target_id": "d62483ec-d617-5ed8-b43d-9e4aefd3d61b",
+    "target_type": "tool",
+    "note": "PostHog MCP Server integrates with PostHog's own platform/API."
+  },
+  {
+    "id": "24533b8f-8d28-53c6-91e0-7c9a7649987a",
+    "type": "develops",
+    "source_id": "7061f8f1-0869-563e-9142-784b58409ebf",
+    "source_type": "company",
+    "target_id": "37549dd0-6c08-55cc-a6cd-d8e77365da92",
+    "target_type": "mcp"
+  },
+  {
+    "id": "730777d9-7c8f-59c0-a34b-95b156f01834",
+    "type": "integrates_with",
+    "source_id": "37549dd0-6c08-55cc-a6cd-d8e77365da92",
+    "source_type": "mcp",
+    "target_id": "7061f8f1-0869-563e-9142-784b58409ebf",
+    "target_type": "tool",
+    "note": "Pipedrive MCP Server integrates with Pipedrive's own platform/API."
+  },
+  {
+    "id": "1bafc174-7af0-5593-a87b-c0454c2a1f02",
+    "type": "develops",
+    "source_id": "15ea82ed-d91f-5ec9-8307-e013505d2681",
+    "source_type": "company",
+    "target_id": "92a65319-08d2-5f41-be7a-eed443de19ad",
+    "target_type": "mcp"
+  },
+  {
+    "id": "1dcdaae4-fde8-53f5-b714-1ef2de250f8c",
+    "type": "integrates_with",
+    "source_id": "92a65319-08d2-5f41-be7a-eed443de19ad",
+    "source_type": "mcp",
+    "target_id": "15ea82ed-d91f-5ec9-8307-e013505d2681",
+    "target_type": "tool",
+    "note": "Pipedream MCP Server integrates with Pipedream's own platform/API."
+  },
+  {
+    "id": "67aae8cd-dcd7-5d64-8b6a-569a992875db",
+    "type": "develops",
+    "source_id": "8acc5c3a-594c-530a-9648-b498407b9372",
+    "source_type": "company",
+    "target_id": "aa486ef8-d3e7-5a5a-a3a5-a1d69d0a98bf",
+    "target_type": "mcp"
+  },
+  {
+    "id": "fa4f5c70-450e-55b1-8abd-60dec66495de",
+    "type": "integrates_with",
+    "source_id": "aa486ef8-d3e7-5a5a-a3a5-a1d69d0a98bf",
+    "source_type": "mcp",
+    "target_id": "8acc5c3a-594c-530a-9648-b498407b9372",
+    "target_type": "tool",
+    "note": "Plaid MCP Server integrates with Plaid's own platform/API."
+  },
+  {
+    "id": "e5bccb0c-dc4e-5da5-9200-1ae238460336",
+    "type": "develops",
+    "source_id": "45fdbaf8-bdf3-58e9-b5cb-54b495ccc934",
+    "source_type": "company",
+    "target_id": "e470d58e-c73a-5f7f-a5de-09b64fa4321c",
+    "target_type": "mcp"
+  },
+  {
+    "id": "1ec0298a-dc05-54c5-aa33-01caf021fc9f",
+    "type": "integrates_with",
+    "source_id": "e470d58e-c73a-5f7f-a5de-09b64fa4321c",
+    "source_type": "mcp",
+    "target_id": "45fdbaf8-bdf3-58e9-b5cb-54b495ccc934",
+    "target_type": "tool",
+    "note": "Ramp MCP Server integrates with Ramp's own platform/API."
+  },
+  {
+    "id": "0595bc6d-a94b-5202-9272-52d2fe5e8d7b",
+    "type": "develops",
+    "source_id": "9a1dffea-214d-596f-8a64-c3264d44128f",
+    "source_type": "company",
+    "target_id": "5c91b147-4e62-5e2f-9650-1b0e5576e6b6",
+    "target_type": "mcp"
+  },
+  {
+    "id": "ef106db5-07bb-5257-a270-379b7acb23a0",
+    "type": "integrates_with",
+    "source_id": "5c91b147-4e62-5e2f-9650-1b0e5576e6b6",
+    "source_type": "mcp",
+    "target_id": "9a1dffea-214d-596f-8a64-c3264d44128f",
+    "target_type": "tool",
+    "note": "Coda MCP Server integrates with Coda's own platform/API."
+  },
+  {
+    "id": "18d26f13-f9bc-5419-a437-a3fd238c299a",
+    "type": "develops",
+    "source_id": "a822c13f-6c79-59b4-b411-60d53b5b1a45",
+    "source_type": "company",
+    "target_id": "a6924e6c-9cc8-577b-881a-9d3bd4fab4f5",
+    "target_type": "mcp"
+  },
+  {
+    "id": "c45ccae3-274d-5677-b575-f27cec502db1",
+    "type": "integrates_with",
+    "source_id": "a6924e6c-9cc8-577b-881a-9d3bd4fab4f5",
+    "source_type": "mcp",
+    "target_id": "a822c13f-6c79-59b4-b411-60d53b5b1a45",
+    "target_type": "tool",
+    "note": "Cloudinary MCP Server integrates with Cloudinary's own platform/API."
+  },
+  {
+    "id": "770b21c6-0acc-5d0a-ada6-9479be8e2134",
+    "type": "develops",
+    "source_id": "39a1083c-461e-5283-962d-09bf535d19a5",
+    "source_type": "company",
+    "target_id": "7216797f-0b39-54ad-bc44-4fc5229e4ba5",
+    "target_type": "mcp"
+  },
+  {
+    "id": "89a9deec-87a8-547b-a602-f0c0233d8a97",
+    "type": "integrates_with",
+    "source_id": "7216797f-0b39-54ad-bc44-4fc5229e4ba5",
+    "source_type": "mcp",
+    "target_id": "39a1083c-461e-5283-962d-09bf535d19a5",
+    "target_type": "tool",
+    "note": "Context7 MCP Server integrates with Upstash (Context7)'s own platform/API."
+  },
+  {
+    "id": "31037a24-c8ba-5aa2-908c-b74ba683e9c1",
+    "type": "develops",
+    "source_id": "ae3c9ae6-7d55-5549-b59d-9b4608885102",
+    "source_type": "company",
+    "target_id": "8cb95e2b-92d9-5980-8ce6-01b51474e30e",
+    "target_type": "mcp"
+  },
+  {
+    "id": "74036e84-9c23-55c1-93ed-8a61ee0e9caf",
+    "type": "integrates_with",
+    "source_id": "8cb95e2b-92d9-5980-8ce6-01b51474e30e",
+    "source_type": "mcp",
+    "target_id": "ae3c9ae6-7d55-5549-b59d-9b4608885102",
+    "target_type": "tool",
+    "note": "Attio MCP Server integrates with Attio's own platform/API."
+  },
+  {
+    "id": "6ac6ac99-714e-5c4a-a39b-5c9e811413f1",
+    "type": "develops",
+    "source_id": "14f7e2c5-dd57-58e1-8c5d-0f12e5941e80",
+    "source_type": "company",
+    "target_id": "1cd7b56b-91e9-50bc-8220-203d346b7a5d",
+    "target_type": "mcp"
+  },
+  {
+    "id": "b30bc3ce-bb75-5c47-b133-08aeb9bba7b8",
+    "type": "integrates_with",
+    "source_id": "1cd7b56b-91e9-50bc-8220-203d346b7a5d",
+    "source_type": "mcp",
+    "target_id": "14f7e2c5-dd57-58e1-8c5d-0f12e5941e80",
+    "target_type": "tool",
+    "note": "Close CRM MCP Server integrates with Close's own platform/API."
+  },
+  {
+    "id": "f070cc59-3e28-51eb-a12f-b32be1121e6b",
+    "type": "develops",
+    "source_id": "b00a5f04-0649-5230-b31d-66433cb1fa1e",
+    "source_type": "company",
+    "target_id": "7298c714-0980-574a-a679-ac3b0ee3211c",
+    "target_type": "mcp"
+  },
+  {
+    "id": "06f8e1a3-8f4e-5746-af9c-a24198dc048b",
+    "type": "integrates_with",
+    "source_id": "7298c714-0980-574a-a679-ac3b0ee3211c",
+    "source_type": "mcp",
+    "target_id": "b00a5f04-0649-5230-b31d-66433cb1fa1e",
+    "target_type": "tool",
+    "note": "Ashby MCP Server integrates with Ashby's own platform/API."
+  },
+  {
+    "id": "66290778-3167-53ae-ad31-f55ca45a716d",
+    "type": "develops",
+    "source_id": "85665e03-e124-5a91-a4fa-235e6b68633f",
+    "source_type": "company",
+    "target_id": "271ad443-95ce-5aed-8175-3da2cb231e52",
+    "target_type": "mcp"
+  },
+  {
+    "id": "354f6151-9db6-55bb-92db-4cd363d90a0c",
+    "type": "integrates_with",
+    "source_id": "271ad443-95ce-5aed-8175-3da2cb231e52",
+    "source_type": "mcp",
+    "target_id": "85665e03-e124-5a91-a4fa-235e6b68633f",
+    "target_type": "tool",
+    "note": "Buildkite MCP Server integrates with Buildkite's own platform/API."
+  },
+  {
+    "id": "458bd9f2-955c-5fed-9ee2-16890177066a",
+    "type": "develops",
+    "source_id": "3a5bf7dd-12f6-5da9-8db4-627233e713c8",
+    "source_type": "company",
+    "target_id": "bc7414e0-6d45-50fe-8db0-65eb38d98d8a",
+    "target_type": "mcp"
+  },
+  {
+    "id": "43b95b8d-e6a8-5dfe-9104-29db70263c2c",
+    "type": "integrates_with",
+    "source_id": "bc7414e0-6d45-50fe-8db0-65eb38d98d8a",
+    "source_type": "mcp",
+    "target_id": "3a5bf7dd-12f6-5da9-8db4-627233e713c8",
+    "target_type": "tool",
+    "note": "Canva MCP Server integrates with Canva's own platform/API."
+  },
+  {
+    "id": "5f05fab0-ea1b-57c7-992f-d3ea281149d3",
+    "type": "develops",
+    "source_id": "fd27a082-2673-56b8-b651-a127dcabb273",
+    "source_type": "company",
+    "target_id": "7ee69a3e-8e38-5702-ace6-89bec364e34f",
+    "target_type": "mcp"
+  },
+  {
+    "id": "50f2c7ee-279d-5f12-b51c-093ebc00eba9",
+    "type": "integrates_with",
+    "source_id": "7ee69a3e-8e38-5702-ace6-89bec364e34f",
+    "source_type": "mcp",
+    "target_id": "fd27a082-2673-56b8-b651-a127dcabb273",
+    "target_type": "tool",
+    "note": "Apify MCP Server integrates with Apify's own platform/API."
+  },
+  {
+    "id": "89b91d61-b04e-5780-81fc-00cf54ee10f7",
+    "type": "develops",
+    "source_id": "57d24a65-2721-5ec0-8ced-2d6d7e65008c",
+    "source_type": "company",
+    "target_id": "b24a7091-9e3e-5091-974a-a8ea6883ef9f",
+    "target_type": "mcp"
+  },
+  {
+    "id": "810154c5-7083-5efd-9d98-ee1aaf72b958",
+    "type": "integrates_with",
+    "source_id": "b24a7091-9e3e-5091-974a-a8ea6883ef9f",
+    "source_type": "mcp",
+    "target_id": "57d24a65-2721-5ec0-8ced-2d6d7e65008c",
+    "target_type": "tool",
+    "note": "Amplitude MCP Server integrates with Amplitude's own platform/API."
+  },
+  {
+    "id": "6718465a-80c5-53eb-9f0e-cdd8be7f0a48",
+    "type": "develops",
+    "source_id": "38fbb01f-c425-597f-a0e7-3025146ba516",
+    "source_type": "company",
+    "target_id": "8cd8b8d0-be7e-5ba9-81b3-e1161a30a06e",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e0e5ed5f-5911-51c7-8308-1dbaac2c5c97",
+    "type": "integrates_with",
+    "source_id": "8cd8b8d0-be7e-5ba9-81b3-e1161a30a06e",
+    "source_type": "mcp",
+    "target_id": "38fbb01f-c425-597f-a0e7-3025146ba516",
+    "target_type": "tool",
+    "note": "Astro Docs MCP Server integrates with Astro's own platform/API."
+  },
+  {
+    "id": "beaafd76-1881-5709-8f59-9b9b16b17b62",
+    "type": "develops",
+    "source_id": "08e1368d-fab9-5c61-a639-71af30e2041a",
+    "source_type": "company",
+    "target_id": "242ac6d5-4bd0-5208-95fb-5bff1e8fd109",
+    "target_type": "mcp"
+  },
+  {
+    "id": "3a68fca1-e614-590b-b61b-569123067720",
+    "type": "integrates_with",
+    "source_id": "242ac6d5-4bd0-5208-95fb-5bff1e8fd109",
+    "source_type": "mcp",
+    "target_id": "08e1368d-fab9-5c61-a639-71af30e2041a",
+    "target_type": "tool",
+    "note": "Braintrust MCP Server integrates with Braintrust's own platform/API."
+  },
+  {
+    "id": "c39c513f-88e7-5f38-9d30-823872e9b01d",
+    "type": "develops",
+    "source_id": "6a3aeebb-292f-59d2-bbb4-561af0153068",
+    "source_type": "company",
+    "target_id": "94b3e280-c174-564a-a6aa-314caa06b32a",
+    "target_type": "mcp"
+  },
+  {
+    "id": "7c3f1f33-2e54-5c59-8d6b-ec1d125ce678",
+    "type": "integrates_with",
+    "source_id": "94b3e280-c174-564a-a6aa-314caa06b32a",
+    "source_type": "mcp",
+    "target_id": "6a3aeebb-292f-59d2-bbb4-561af0153068",
+    "target_type": "tool",
+    "note": "Browser Use MCP Server integrates with Browser Use's own platform/API."
+  },
+  {
+    "id": "5bd5befd-d0d2-5d9b-9912-70c83ccdd2f0",
+    "type": "develops",
+    "source_id": "2bed2a3b-da58-5d82-89c2-a15631de1c65",
+    "source_type": "company",
+    "target_id": "d6c3674a-0e89-5530-8c5d-5dc1bdfca355",
+    "target_type": "mcp"
+  },
+  {
+    "id": "76a9f129-8fda-56f9-9b9b-fb7d452a1b2e",
+    "type": "integrates_with",
+    "source_id": "d6c3674a-0e89-5530-8c5d-5dc1bdfca355",
+    "source_type": "mcp",
+    "target_id": "2bed2a3b-da58-5d82-89c2-a15631de1c65",
+    "target_type": "tool",
+    "note": "DeepWiki MCP Server integrates with Devin AI (Cognition)'s own platform/API."
+  },
+  {
+    "id": "760b6c75-e379-5e83-8c1c-4fcb7757a296",
+    "type": "develops",
+    "source_id": "a17986ac-1641-57d3-8fbb-bb408686b46c",
+    "source_type": "company",
+    "target_id": "ec333b67-2bfa-53b8-b598-5d035390527d",
+    "target_type": "mcp"
+  },
+  {
+    "id": "39096c61-52c6-5337-ae0e-a0b28171e008",
+    "type": "integrates_with",
+    "source_id": "ec333b67-2bfa-53b8-b598-5d035390527d",
+    "source_type": "mcp",
+    "target_id": "a17986ac-1641-57d3-8fbb-bb408686b46c",
+    "target_type": "tool",
+    "note": "draw.io MCP Server integrates with draw.io (JGraph)'s own platform/API."
+  },
+  {
+    "id": "dc2b021b-eac8-5716-b054-be434b079210",
+    "type": "develops",
+    "source_id": "9600ee6e-4135-5c7e-9d54-d9a2c166b6f2",
+    "source_type": "company",
+    "target_id": "24c5aa60-16c3-577d-8dc4-8df4a786f167",
+    "target_type": "mcp"
+  },
+  {
+    "id": "f4f1d625-bccd-5e73-86e5-649bf478afa1",
+    "type": "integrates_with",
+    "source_id": "24c5aa60-16c3-577d-8dc4-8df4a786f167",
+    "source_type": "mcp",
+    "target_id": "9600ee6e-4135-5c7e-9d54-d9a2c166b6f2",
+    "target_type": "tool",
+    "note": "Excalidraw MCP Server integrates with Excalidraw's own platform/API."
+  },
+  {
+    "id": "468e4fe0-5e9b-5541-93a3-c30f9fb0b282",
+    "type": "develops",
+    "source_id": "695936c1-4363-5a9f-990e-e83ce875ab99",
+    "source_type": "company",
+    "target_id": "6194955b-ac09-53e9-bf10-3ba9f20cc73d",
+    "target_type": "mcp"
+  },
+  {
+    "id": "11399a54-7828-5878-aef4-2f718708cd96",
+    "type": "integrates_with",
+    "source_id": "6194955b-ac09-53e9-bf10-3ba9f20cc73d",
+    "source_type": "mcp",
+    "target_id": "695936c1-4363-5a9f-990e-e83ce875ab99",
+    "target_type": "tool",
+    "note": "Fireflies.ai MCP Server integrates with Fireflies.ai's own platform/API."
+  },
+  {
+    "id": "f09d1ed9-d634-5b5b-8d2f-72c3ec886627",
+    "type": "develops",
+    "source_id": "bc6977dd-3898-5234-9bec-1089ff8162ba",
+    "source_type": "company",
+    "target_id": "90c006f8-ea60-5877-856f-c08285e9d63a",
+    "target_type": "mcp"
+  },
+  {
+    "id": "122b1c6b-eb24-55e4-b8fc-ed2ccdf1bbec",
+    "type": "integrates_with",
+    "source_id": "90c006f8-ea60-5877-856f-c08285e9d63a",
+    "source_type": "mcp",
+    "target_id": "bc6977dd-3898-5234-9bec-1089ff8162ba",
+    "target_type": "tool",
+    "note": "Google Maps MCP Server integrates with Google's own platform/API."
+  },
+  {
+    "id": "65faf0f6-86b2-5b6b-8ba0-06c4def831cc",
+    "type": "develops",
+    "source_id": "9f594dcb-b8d6-5c79-9323-7d42600527a9",
+    "source_type": "company",
+    "target_id": "25a12d94-14ce-5341-9fe9-c3ae72fb676d",
+    "target_type": "mcp"
+  },
+  {
+    "id": "8443aeba-f168-5172-a4c6-d32b855f6487",
+    "type": "integrates_with",
+    "source_id": "25a12d94-14ce-5341-9fe9-c3ae72fb676d",
+    "source_type": "mcp",
+    "target_id": "9f594dcb-b8d6-5c79-9323-7d42600527a9",
+    "target_type": "tool",
+    "note": "Honeycomb MCP Server integrates with Honeycomb's own platform/API."
+  },
+  {
+    "id": "7c0d88e3-ba4a-585a-9f93-68a9da107ec3",
+    "type": "develops",
+    "source_id": "4bebf922-c6fb-56eb-bc55-5d9f9f8f44d1",
+    "source_type": "company",
+    "target_id": "a3aa8553-7c01-5941-ade9-e3b4f69f5960",
+    "target_type": "mcp"
+  },
+  {
+    "id": "89174ef3-bc57-5ee0-a72b-dab17f58b45f",
+    "type": "integrates_with",
+    "source_id": "a3aa8553-7c01-5941-ade9-e3b4f69f5960",
+    "source_type": "mcp",
+    "target_id": "4bebf922-c6fb-56eb-bc55-5d9f9f8f44d1",
+    "target_type": "tool",
+    "note": "Hugging Face MCP Server integrates with Hugging Face's own platform/API."
+  },
+  {
+    "id": "e9edef96-07c9-55fc-bfca-4e7f6c18a679",
+    "type": "develops",
+    "source_id": "61a70209-b85b-5516-88c0-e6244b417905",
+    "source_type": "company",
+    "target_id": "fd6e7f25-d6b7-5758-b6df-21197fb53772",
+    "target_type": "mcp"
+  },
+  {
+    "id": "64597103-6e34-5ddb-9fc7-7c6aa87bad25",
+    "type": "integrates_with",
+    "source_id": "fd6e7f25-d6b7-5758-b6df-21197fb53772",
+    "source_type": "mcp",
+    "target_id": "61a70209-b85b-5516-88c0-e6244b417905",
+    "target_type": "tool",
+    "note": "InstantDB MCP Server integrates with Instant's own platform/API."
+  },
+  {
+    "id": "5365c94c-86a0-567b-9ab5-e720339f2df6",
+    "type": "develops",
+    "source_id": "4fd53629-def0-5a19-9c9f-68c4906ba2fd",
+    "source_type": "company",
+    "target_id": "bcc58ac1-7128-5f7e-90e8-050f7ec8f693",
+    "target_type": "mcp"
+  },
+  {
+    "id": "ba702835-760a-5190-97f2-b40407c1a12f",
+    "type": "integrates_with",
+    "source_id": "bcc58ac1-7128-5f7e-90e8-050f7ec8f693",
+    "source_type": "mcp",
+    "target_id": "4fd53629-def0-5a19-9c9f-68c4906ba2fd",
+    "target_type": "tool",
+    "note": "Jamie MCP Server integrates with Jamie's own platform/API."
+  },
+  {
+    "id": "663ad5fa-aab4-5f3c-a0bd-123b643c20a5",
+    "type": "develops",
+    "source_id": "4b3fc314-3c2e-5062-9f69-59b27a19272f",
+    "source_type": "company",
+    "target_id": "3e3ad1d9-ba38-562d-ad20-8a9d98f26520",
+    "target_type": "mcp"
+  },
+  {
+    "id": "5a2d2783-fd81-5133-9436-4223cc97eb08",
+    "type": "integrates_with",
+    "source_id": "3e3ad1d9-ba38-562d-ad20-8a9d98f26520",
+    "source_type": "mcp",
+    "target_id": "4b3fc314-3c2e-5062-9f69-59b27a19272f",
+    "target_type": "tool",
+    "note": "Leadfeeder MCP Server integrates with Leadfeeder's own platform/API."
+  },
+  {
+    "id": "fd108ade-7da4-5afd-8c22-a718ba5400ee",
+    "type": "develops",
+    "source_id": "d0b39a41-33d3-5eea-9b73-1b15938c8c67",
+    "source_type": "company",
+    "target_id": "71a824ef-85ab-5797-8298-6507f3c27bea",
+    "target_type": "mcp"
+  },
+  {
+    "id": "69cb6cf7-dbdb-528c-b7a3-91557120fc2f",
+    "type": "integrates_with",
+    "source_id": "71a824ef-85ab-5797-8298-6507f3c27bea",
+    "source_type": "mcp",
+    "target_id": "d0b39a41-33d3-5eea-9b73-1b15938c8c67",
+    "target_type": "tool",
+    "note": "Microsoft Learn Docs MCP Server integrates with Microsoft's own platform/API."
+  },
+  {
+    "id": "9c023252-373f-5625-b32f-d28b0eba1c43",
+    "type": "develops",
+    "source_id": "d830db3a-307d-5620-8c3b-158b522105e7",
+    "source_type": "company",
+    "target_id": "9731c25e-faf8-5543-8152-d4df4b4b9c17",
+    "target_type": "mcp"
+  },
+  {
+    "id": "1e44dd9e-79a7-5c94-8916-289a4d3ebb9e",
+    "type": "integrates_with",
+    "source_id": "9731c25e-faf8-5543-8152-d4df4b4b9c17",
+    "source_type": "mcp",
+    "target_id": "d830db3a-307d-5620-8c3b-158b522105e7",
+    "target_type": "tool",
+    "note": "Mobbin MCP Server integrates with Mobbin's own platform/API."
+  },
+  {
+    "id": "90877eda-bec2-5849-8a14-9d6b43f93d7e",
+    "type": "develops",
+    "source_id": "2fb082e7-8ca4-5e8c-b053-97d57b4fb333",
+    "source_type": "company",
+    "target_id": "2470d00b-0eae-5cd7-8885-61971d14b1bf",
+    "target_type": "mcp"
+  },
+  {
+    "id": "0c8bbb10-0be7-583a-aa83-464cd9518003",
+    "type": "integrates_with",
+    "source_id": "2470d00b-0eae-5cd7-8885-61971d14b1bf",
+    "source_type": "mcp",
+    "target_id": "2fb082e7-8ca4-5e8c-b053-97d57b4fb333",
+    "target_type": "tool",
+    "note": "Modjo MCP Server integrates with Modjo's own platform/API."
+  },
+  {
+    "id": "465eb735-77a0-5d96-8017-31c13fb668e4",
+    "type": "develops",
+    "source_id": "a6073c42-35ec-5a10-b0f4-0990ff8c5065",
+    "source_type": "company",
+    "target_id": "6a482beb-b13c-5f9a-a58d-c02d5134058b",
+    "target_type": "mcp"
+  },
+  {
+    "id": "6eaa788a-b70e-58d8-9757-f16bd09e1a43",
+    "type": "integrates_with",
+    "source_id": "6a482beb-b13c-5f9a-a58d-c02d5134058b",
+    "source_type": "mcp",
+    "target_id": "a6073c42-35ec-5a10-b0f4-0990ff8c5065",
+    "target_type": "tool",
+    "note": "Pennylane MCP Server integrates with Pennylane's own platform/API."
+  },
+  {
+    "id": "461a62ff-2d57-5bce-9a90-af47a1d49422",
+    "type": "develops",
+    "source_id": "53555462-3c4a-54b8-83e4-db6ac254b103",
+    "source_type": "company",
+    "target_id": "a3cbbd9f-09b7-5808-af3d-e9c1d0f7fd72",
+    "target_type": "mcp"
+  },
+  {
+    "id": "9913a09a-0d07-5e77-83a2-9e36e653948c",
+    "type": "integrates_with",
+    "source_id": "a3cbbd9f-09b7-5808-af3d-e9c1d0f7fd72",
+    "source_type": "mcp",
+    "target_id": "53555462-3c4a-54b8-83e4-db6ac254b103",
+    "target_type": "tool",
+    "note": "Spendesk MCP Server integrates with Spendesk's own platform/API."
+  },
+  {
+    "id": "cf2da1a6-1c2c-51cf-89b3-ba7922a43627",
+    "type": "develops",
+    "source_id": "d2f671ab-cbf0-5ac0-812d-28fb0065ff26",
+    "source_type": "company",
+    "target_id": "23ec1798-a497-5759-b367-dfb21162e296",
+    "target_type": "mcp"
+  },
+  {
+    "id": "4eae2b92-5503-57c3-ba5f-c24b4b60fbc2",
+    "type": "integrates_with",
+    "source_id": "23ec1798-a497-5759-b367-dfb21162e296",
+    "source_type": "mcp",
+    "target_id": "d2f671ab-cbf0-5ac0-812d-28fb0065ff26",
+    "target_type": "tool",
+    "note": "Statista MCP Server integrates with Statista's own platform/API."
+  },
+  {
+    "id": "76691f55-8081-5efc-b6f5-7d347beb7a1f",
+    "type": "develops",
+    "source_id": "fab06cc3-d5b3-57c3-acc5-4b94914524c8",
+    "source_type": "company",
+    "target_id": "ec035e8c-9a09-5be4-9ac5-dcb200ef51a3",
+    "target_type": "mcp"
+  },
+  {
+    "id": "e70574fb-ae82-5b5a-a234-f57ecc4fa4bf",
+    "type": "integrates_with",
+    "source_id": "ec035e8c-9a09-5be4-9ac5-dcb200ef51a3",
+    "source_type": "mcp",
+    "target_id": "fab06cc3-d5b3-57c3-acc5-4b94914524c8",
+    "target_type": "tool",
+    "note": "Supercut MCP Server integrates with Supercut's own platform/API."
+  },
+  {
+    "id": "d5e11688-a632-529b-9f1e-d7caabab0ccb",
+    "type": "develops",
+    "source_id": "f9a40176-2764-598d-86ad-2686db2ebcf4",
+    "source_type": "company",
+    "target_id": "cad592ab-9dfd-5673-b95d-2f327057e028",
+    "target_type": "mcp"
+  },
+  {
+    "id": "aa35ebd2-b504-5d98-a557-899f3a82c902",
+    "type": "integrates_with",
+    "source_id": "cad592ab-9dfd-5673-b95d-2f327057e028",
+    "source_type": "mcp",
+    "target_id": "f9a40176-2764-598d-86ad-2686db2ebcf4",
+    "target_type": "tool",
+    "note": "Superglue MCP Server integrates with Superglue's own platform/API."
+  }
+]
