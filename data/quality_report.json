@@ -1,0 +1,101 @@
+{
+  "generated_by": "scripts/quality_report.py",
+  "dataset": "MCP Servers module",
+  "totals": {
+    "mcp_records": 1075,
+    "verified_first_party_records": 75,
+    "community_github_verified_records": 1000,
+    "company_records": 69,
+    "repository_records": 977,
+    "relationship_records": 1150
+  },
+  "integrity": {
+    "duplicate_ids": 0,
+    "duplicate_name_vendor_pairs": 1,
+    "passes_uniqueness_check": false
+  },
+  "completeness": {
+    "description_coverage_pct": 100.0,
+    "official_url_coverage_pct": 100.0,
+    "logo_url_coverage_pct": 100.0
+  },
+  "description_sourcing": {
+    "publisher_registry": 1000,
+    "llm_curated": 75
+  },
+  "traceability": {
+    "verified_tier_url_and_source_same_host_pct": 100.0,
+    "community_tier_url_matches_declared_repo_pct": 47.1,
+    "note": "Verified-tier records point `url` and `source.url` at the same vendor host. Community-tier records legitimately have a different source host (the MCP Registry) \u2014 for that tier we instead check `url` matches the declared repository URL."
+  },
+  "company_enrichment": {
+    "companies_with_headquarters_pct": 100.0,
+    "companies_with_founding_year_pct": 100.0
+  },
+  "repository_enrichment": {
+    "repositories_with_github_stars_pct": 2.46,
+    "note": "Populated when scripts/pull_registry.py was run with --enrich-github; null fields are honestly reported, never guessed."
+  },
+  "distribution": {
+    "by_category": {
+      "MCP": 1075,
+      "Community": 1000,
+      "Dev Tools": 31,
+      "Productivity": 13,
+      "AI Assist": 10,
+      "Creative": 9,
+      "Reference": 7,
+      "Cloud": 7,
+      "CRM": 6,
+      "Automation": 5,
+      "Payments": 4,
+      "Database": 4,
+      "Finance": 4,
+      "Observability": 3,
+      "Analytics": 3,
+      "Documentation": 3,
+      "Version Control": 2,
+      "Communication": 2,
+      "Models": 2,
+      "Security": 2,
+      "Customer Support": 1,
+      "Search": 1,
+      "HR": 1,
+      "CI/CD": 1,
+      "Web Scraping": 1,
+      "Location": 1,
+      "Design Reference": 1,
+      "Data": 1,
+      "Research": 1,
+      "Videos": 1
+    },
+    "by_transport": {
+      "Remote/STREAMABLE-HTTP": 826,
+      "Local/stdio": 170,
+      "Remote/HTTP": 57,
+      "Remote/SSE": 18,
+      "Unknown": 4
+    },
+    "by_auth_type": {
+      "Varies (see package/remote config)": 1000,
+      "OAuth": 37,
+      "None": 12,
+      "API Key": 11,
+      "OAuth DCR": 3,
+      "Bearer Token (API Key)": 3,
+      "OAuth / API Key": 2,
+      "Bearer Token (PAT)": 1,
+      "OAuth 2.0 (DCR)": 1,
+      "Bearer Token": 1,
+      "SSE": 1,
+      "Custom": 1,
+      "None / Optional": 1,
+      "OAuth / Bearer Token": 1
+    },
+    "by_relationship_type": {
+      "hosted_in": 1000,
+      "develops": 75,
+      "integrates_with": 75
+    }
+  }
+}

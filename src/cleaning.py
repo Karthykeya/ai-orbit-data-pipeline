@@ -42,6 +42,8 @@ def clean_record(rec: dict) -> dict:
     rec["server_url"] = normalize_url(rec.get("server_url", ""))
     rec["source_url"] = normalize_url(rec.get("source_url", rec["docs_url"]))
     rec["categories"] = sorted({sanitize_text(c) for c in rec.get("categories", []) if c})
+    if rec.get("publisher_description"):
+        rec["publisher_description"] = sanitize_text(rec["publisher_description"])
     return rec
 
 

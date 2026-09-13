@@ -12,9 +12,9 @@
       "name": "Model Context Protocol",
       "url": "https://modelcontextprotocol.io/examples"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2021,
+    "industry_sector": "AI Research / Foundation Models"
   },
   {
     "id": "762d7d29-d86a-5857-98a3-03500d7c3ff9",
@@ -29,9 +29,9 @@
       "name": "GitHub Docs",
       "url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2008,
+    "industry_sector": "Developer Tools / Version Control"
   },
   {
     "id": "950845ab-bf59-51cf-88ad-372ecc10c618",
@@ -46,9 +46,9 @@
       "name": "Notion Developers",
       "url": "https://developers.notion.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2013,
+    "industry_sector": "Productivity Software"
   },
   {
     "id": "c044ee09-74a0-537e-8d48-5b50815b06f8",
@@ -63,9 +63,9 @@
       "name": "Stripe Docs",
       "url": "https://docs.stripe.com/stripe-apps/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "South San Francisco, California, USA",
+    "founding_year": 2010,
+    "industry_sector": "Financial Technology / Payments"
   },
   {
     "id": "a3d4d19a-ebe6-5aa8-a720-5ca11f767e8c",
@@ -80,9 +80,9 @@
       "name": "Linear Docs",
       "url": "https://linear.app/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2019,
+    "industry_sector": "Developer Tools / Project Management"
   },
   {
     "id": "40b7fed0-34c5-540a-8b69-ea561834bd68",
@@ -97,9 +97,9 @@
       "name": "Slack Developer Docs",
       "url": "https://docs.slack.dev/ai/slack-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2013,
+    "industry_sector": "Business Communication"
   },
   {
     "id": "4651ea31-60b0-5590-bf82-4567c02b21ed",
@@ -114,9 +114,9 @@
       "name": "Atlassian Support",
       "url": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "Sydney, Australia",
+    "founding_year": 2002,
+    "industry_sector": "Developer Tools / Collaboration Software"
   },
   {
     "id": "ff940627-4641-512b-81d1-bf35f7915584",
@@ -131,9 +131,9 @@
       "name": "HubSpot Developers",
       "url": "https://developers.hubspot.com/docs/guides/apps/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Cambridge, Massachusetts, USA",
+    "founding_year": 2006,
+    "industry_sector": "Marketing & Sales Software (CRM)"
   },
   {
     "id": "4686c7f6-fe52-5947-ab2a-be39d264e804",
@@ -148,9 +148,9 @@
       "name": "Supabase Docs",
       "url": "https://supabase.com/docs/guides/getting-started/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2020,
+    "industry_sector": "Backend-as-a-Service / Database"
   },
   {
     "id": "8d3d7988-c65e-5ffe-9263-aca9241b7f8a",
@@ -165,9 +165,9 @@
       "name": "Cloudflare Developers",
       "url": "https://developers.cloudflare.com/agents/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2009,
+    "industry_sector": "Cloud / Network Infrastructure"
   },
   {
     "id": "38a901a6-e45d-5ca3-b910-3f4232203c35",
@@ -182,9 +182,9 @@
       "name": "Vercel Docs",
       "url": "https://vercel.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2015,
+    "industry_sector": "Cloud / Frontend Deployment"
   },
   {
     "id": "22650054-6abb-59e0-98da-322ccb330b51",
@@ -199,9 +199,9 @@
       "name": "Sentry Docs",
       "url": "https://docs.sentry.io/product/sentry-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2012,
+    "industry_sector": "Developer Tools / Observability"
   },
   {
     "id": "e4b656e6-fe08-5fbb-8a86-484a639e982f",
@@ -216,9 +216,9 @@
       "name": "PayPal Developer",
       "url": "https://developer.paypal.com/tools/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Jose, California, USA",
+    "founding_year": 1998,
+    "industry_sector": "Financial Technology / Payments"
   },
   {
     "id": "43339b29-9b79-5160-8791-5b949486826f",
@@ -233,9 +233,9 @@
       "name": "Asana Developers",
       "url": "https://developers.asana.com/docs/using-asanas-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2008,
+    "industry_sector": "Productivity / Project Management"
   },
   {
     "id": "b85d4c7b-5fba-5a92-8e3e-3928e7ab0997",
@@ -250,9 +250,9 @@
       "name": "ClickUp Developer Docs",
       "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Diego, California, USA",
+    "founding_year": 2017,
+    "industry_sector": "Productivity / Project Management"
   },
   {
     "id": "370608e6-28d4-5f57-9b74-ff50fe3b2ab3",
@@ -267,9 +267,9 @@
       "name": "monday.com Support",
       "url": "https://support.monday.com/hc/en-us/articles/28588158981266-Get-started-with-monday-MCP"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Tel Aviv, Israel",
+    "founding_year": 2012,
+    "industry_sector": "Work Management Software"
   },
   {
     "id": "d2e85a0f-24ca-5f05-a148-0a4b38d6945a",
@@ -284,9 +284,9 @@
       "name": "Miro Developers",
       "url": "https://developers.miro.com/docs/miro-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2011,
+    "industry_sector": "Visual Collaboration Software"
   },
   {
     "id": "d410b3c8-674e-545b-80c5-265b4679ac34",
@@ -301,9 +301,9 @@
       "name": "Intercom Developers",
       "url": "https://developers.intercom.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2011,
+    "industry_sector": "Customer Messaging / Support"
   },
   {
     "id": "893c9617-f7f5-5536-b52c-1bdbb41b4723",
@@ -318,9 +318,9 @@
       "name": "PagerDuty Support",
       "url": "https://support.pagerduty.com/main/docs/pagerduty-mcp-server-integration-guide"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2009,
+    "industry_sector": "Developer Tools / Incident Response"
   },
   {
     "id": "0e022a38-bc3d-596c-a99d-13bde1ef6480",
@@ -335,9 +335,9 @@
       "name": "Neon Docs",
       "url": "https://neon.tech/docs/ai/neon-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2021,
+    "industry_sector": "Database / Serverless Postgres"
   },
   {
     "id": "c5073280-ab9d-5907-ba84-402c7c67e748",
@@ -352,9 +352,9 @@
       "name": "Netlify Docs",
       "url": "https://docs.netlify.com/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2014,
+    "industry_sector": "Cloud / Web Deployment"
   },
   {
     "id": "3facfa55-1969-54d0-ba15-972d4d19b966",
@@ -369,9 +369,9 @@
       "name": "Prisma Docs",
       "url": "https://www.prisma.io/docs/postgres/integrations/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "Berlin, Germany",
+    "founding_year": 2016,
+    "industry_sector": "Database Tooling"
   },
   {
     "id": "89e188c4-bf1b-591b-bda0-58f7d42246ed",
@@ -386,9 +386,9 @@
       "name": "Render Docs",
       "url": "https://render.com/docs/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2018,
+    "industry_sector": "Cloud Hosting"
   },
   {
     "id": "51503137-50fe-5405-a5b2-e3b6c36c66a2",
@@ -403,9 +403,9 @@
       "name": "Replicate Docs",
       "url": "https://replicate.com/docs/reference/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2019,
+    "industry_sector": "AI Model Hosting"
   },
   {
     "id": "23156f24-ceda-5869-85af-0dc2b33fdcc4",
@@ -420,9 +420,9 @@
       "name": "Sanity Docs",
       "url": "https://www.sanity.io/docs/compute-and-ai/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2015,
+    "industry_sector": "Headless CMS"
   },
   {
     "id": "61c81456-e5e5-5557-9935-47799eba5432",
@@ -437,9 +437,9 @@
       "name": "Semgrep Docs",
       "url": "https://semgrep.dev/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2016,
+    "industry_sector": "Application Security"
   },
   {
     "id": "62d65fed-a1ef-55ed-9bec-bda96c0cc4ad",
@@ -454,9 +454,9 @@
       "name": "Square Developer",
       "url": "https://developer.squareup.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2009,
+    "industry_sector": "Financial Technology / Payments"
   },
   {
     "id": "7123bf90-5f73-5525-9e84-b4e2b45f3546",
@@ -471,9 +471,9 @@
       "name": "Stack Overflow Docs",
       "url": "https://stackoverflow.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "New York City, New York, USA",
+    "founding_year": 2008,
+    "industry_sector": "Developer Q&A / Knowledge Base"
   },
   {
     "id": "acdf4918-236f-5e2d-a69c-8a89e0ed2e0a",
@@ -488,9 +488,9 @@
       "name": "Typeform Developers",
       "url": "https://www.typeform.com/developers/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Barcelona, Spain",
+    "founding_year": 2012,
+    "industry_sector": "Online Forms & Surveys"
   },
   {
     "id": "59e061e8-b145-560a-9298-55e0490e2b68",
@@ -505,9 +505,9 @@
       "name": "Stytch Docs",
       "url": "https://stytch.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2020,
+    "industry_sector": "Authentication / Identity"
   },
   {
     "id": "51f636ee-2be8-579b-a2b2-6544ddbe052d",
@@ -522,9 +522,9 @@
       "name": "Zapier",
       "url": "https://zapier.com/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Sunnyvale, California, USA",
+    "founding_year": 2011,
+    "industry_sector": "Workflow Automation"
   },
   {
     "id": "c8aa45be-8972-51d4-b10a-ca319fa418b0",
@@ -539,9 +539,9 @@
       "name": "Wix Developers",
       "url": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Tel Aviv, Israel",
+    "founding_year": 2006,
+    "industry_sector": "Website Builder / Cloud"
   },
   {
     "id": "669d7947-392a-5bf6-919c-964a1cd8ef3a",
@@ -556,9 +556,9 @@
       "name": "Postman GitHub",
       "url": "https://github.com/postmanlabs/postman-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2014,
+    "industry_sector": "API Development Tools"
   },
   {
     "id": "d62483ec-d617-5ed8-b43d-9e4aefd3d61b",
@@ -573,9 +573,9 @@
       "name": "PostHog Docs",
       "url": "https://posthog.com/docs/model-context-protocol"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2020,
+    "industry_sector": "Product Analytics"
   },
   {
     "id": "7061f8f1-0869-563e-9142-784b58409ebf",
@@ -590,9 +590,9 @@
       "name": "Pipedrive",
       "url": "https://www.pipedrive.com/en/features/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Tallinn, Estonia / New York, USA",
+    "founding_year": 2010,
+    "industry_sector": "Sales CRM"
   },
   {
     "id": "15ea82ed-d91f-5ec9-8307-e013505d2681",
@@ -607,9 +607,9 @@
       "name": "Pipedream Docs",
       "url": "https://pipedream.com/docs/connect/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2015,
+    "industry_sector": "Workflow Automation / iPaaS"
   },
   {
     "id": "8acc5c3a-594c-530a-9648-b498407b9372",
@@ -624,9 +624,9 @@
       "name": "Plaid Docs",
       "url": "https://plaid.com/docs/resources"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2013,
+    "industry_sector": "Financial Technology / Banking APIs"
   },
   {
     "id": "45fdbaf8-bdf3-58e9-b5cb-54b495ccc934",
@@ -641,9 +641,9 @@
       "name": "Ramp Docs",
       "url": "https://docs.ramp.com/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "New York City, New York, USA",
+    "founding_year": 2019,
+    "industry_sector": "Corporate Finance / Spend Management"
   },
   {
     "id": "9a1dffea-214d-596f-8a64-c3264d44128f",
@@ -658,9 +658,9 @@
       "name": "Coda Guides",
       "url": "https://coda.io/resources/guides/getting_started_with_coda_mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2014,
+    "industry_sector": "Productivity / Docs"
   },
   {
     "id": "a822c13f-6c79-59b4-b411-60d53b5b1a45",
@@ -675,9 +675,9 @@
       "name": "Cloudinary Docs",
       "url": "https://cloudinary.com/documentation/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Santa Clara, California, USA",
+    "founding_year": 2012,
+    "industry_sector": "Media Management / Cloud"
   },
   {
     "id": "39a1083c-461e-5283-962d-09bf535d19a5",
@@ -692,9 +692,9 @@
       "name": "Context7 Docs",
       "url": "https://context7.com/docs/resources/all-clients"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2021,
+    "industry_sector": "Developer Tools / Documentation Retrieval"
   },
   {
     "id": "ae3c9ae6-7d55-5549-b59d-9b4608885102",
@@ -709,9 +709,9 @@
       "name": "Attio Docs",
       "url": "https://attio.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "London, United Kingdom",
+    "founding_year": 2019,
+    "industry_sector": "CRM Software"
   },
   {
     "id": "14f7e2c5-dd57-58e1-8c5d-0f12e5941e80",
@@ -726,9 +726,9 @@
       "name": "Close Help Center",
       "url": "https://help.close.com/docs/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2013,
+    "industry_sector": "Sales CRM"
   },
   {
     "id": "b00a5f04-0649-5230-b31d-66433cb1fa1e",
@@ -743,9 +743,9 @@
       "name": "Ashby Docs",
       "url": "https://docs.ashbyhq.com/ashby-mcp-server-beta"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2018,
+    "industry_sector": "Recruiting Software (ATS)"
   },
   {
     "id": "85665e03-e124-5a91-a4fa-235e6b68633f",
@@ -760,9 +760,9 @@
       "name": "Buildkite Docs",
       "url": "https://buildkite.com/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "Melbourne, Australia",
+    "founding_year": 2013,
+    "industry_sector": "CI/CD Infrastructure"
   },
   {
     "id": "3a5bf7dd-12f6-5da9-8db4-627233e713c8",
@@ -777,9 +777,9 @@
       "name": "Canva Developers",
       "url": "https://www.canva.dev/docs/connect/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Sydney, Australia",
+    "founding_year": 2012,
+    "industry_sector": "Design Software"
   },
   {
     "id": "fd27a082-2673-56b8-b651-a127dcabb273",
@@ -794,9 +794,9 @@
       "name": "Apify Docs",
       "url": "https://docs.apify.com/platform/integrations/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Prague, Czech Republic",
+    "founding_year": 2015,
+    "industry_sector": "Web Scraping / Automation"
   },
   {
     "id": "57d24a65-2721-5ec0-8ced-2d6d7e65008c",
@@ -811,9 +811,9 @@
       "name": "Amplitude Docs",
       "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2012,
+    "industry_sector": "Product Analytics"
   },
   {
     "id": "38fbb01f-c425-597f-a0e7-3025146ba516",
@@ -828,9 +828,9 @@
       "name": "Astro Docs",
       "url": "https://docs.astro.build/en/guides/build-with-ai"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "Remote / New York, USA",
+    "founding_year": 2021,
+    "industry_sector": "Web Framework"
   },
   {
     "id": "08e1368d-fab9-5c61-a639-71af30e2041a",
@@ -845,9 +845,9 @@
       "name": "Braintrust Docs",
       "url": "https://www.braintrust.dev/docs/deploy/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2023,
+    "industry_sector": "LLM Evaluation Tooling"
   },
   {
     "id": "6a3aeebb-292f-59d2-bbb4-561af0153068",
@@ -862,9 +862,9 @@
       "name": "Browser Use Docs",
       "url": "https://docs.browser-use.com/customize/integrations/mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2024,
+    "industry_sector": "AI Browser Automation"
   },
   {
     "id": "2bed2a3b-da58-5d82-89c2-a15631de1c65",
@@ -879,9 +879,9 @@
       "name": "Devin AI Docs",
       "url": "https://docs.devin.ai/work-with-devin/deepwiki-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2023,
+    "industry_sector": "AI Coding Agents"
   },
   {
     "id": "a17986ac-1641-57d3-8fbb-bb408686b46c",
@@ -896,9 +896,9 @@
       "name": "draw.io Docs",
       "url": "https://www.drawio.com/docs/manual/generate/drawio-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "London, United Kingdom",
+    "founding_year": 2005,
+    "industry_sector": "Diagramming Software"
   },
   {
     "id": "9600ee6e-4135-5c7e-9d54-d9a2c166b6f2",
@@ -913,9 +913,9 @@
       "name": "Excalidraw GitHub",
       "url": "https://github.com/excalidraw/excalidraw-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Remote",
+    "founding_year": 2020,
+    "industry_sector": "Diagramming / Whiteboarding"
   },
   {
     "id": "695936c1-4363-5a9f-990e-e83ce875ab99",
@@ -930,9 +930,9 @@
       "name": "Fireflies Guide",
       "url": "https://guide.fireflies.ai/docs/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2016,
+    "industry_sector": "Meeting Intelligence / AI Notetaking"
   },
   {
     "id": "bc6977dd-3898-5234-9bec-1089ff8162ba",
@@ -947,9 +947,9 @@
       "name": "Google Maps Platform Docs",
       "url": "https://developers.google.com/maps/ai/grounding-lite/reference/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Mountain View, California, USA",
+    "founding_year": 1998,
+    "industry_sector": "Internet Services / Cloud"
   },
   {
     "id": "9f594dcb-b8d6-5c79-9323-7d42600527a9",
@@ -964,9 +964,9 @@
       "name": "Honeycomb Docs",
       "url": "https://docs.honeycomb.io/integrations/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2016,
+    "industry_sector": "Observability"
   },
   {
     "id": "4bebf922-c6fb-56eb-bc55-5d9f9f8f44d1",
@@ -981,9 +981,9 @@
       "name": "Hugging Face Docs",
       "url": "https://huggingface.co/docs/hub/en/hf-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "New York City, New York, USA",
+    "founding_year": 2016,
+    "industry_sector": "AI Models / Open-Source ML"
   },
   {
     "id": "61a70209-b85b-5516-88c0-e6244b417905",
@@ -998,9 +998,9 @@
       "name": "InstantDB Docs",
       "url": "https://www.instantdb.com/docs/using-llms"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2022,
+    "industry_sector": "Realtime Database"
   },
   {
     "id": "4fd53629-def0-5a19-9c9f-68c4906ba2fd",
@@ -1015,9 +1015,9 @@
       "name": "Jamie Docs",
       "url": "https://docs.meetjamie.ai/integrations/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Berlin, Germany",
+    "founding_year": 2023,
+    "industry_sector": "AI Meeting Assistant"
   },
   {
     "id": "4b3fc314-3c2e-5062-9f69-59b27a19272f",
@@ -1032,9 +1032,9 @@
       "name": "Leadfeeder Help Center",
       "url": "https://help.leadfeeder.com/en/articles/15532431-connect-leadfeeder-to-your-ai-tool-with-the-mcp-server"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Helsinki, Finland",
+    "founding_year": 2012,
+    "industry_sector": "Sales Intelligence / Lead Generation"
   },
   {
     "id": "d0b39a41-33d3-5eea-9b73-1b15938c8c67",
@@ -1049,9 +1049,9 @@
       "name": "Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/training/support/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "Redmond, Washington, USA",
+    "founding_year": 1975,
+    "industry_sector": "Software / Cloud"
   },
   {
     "id": "d830db3a-307d-5620-8c3b-158b522105e7",
@@ -1066,9 +1066,9 @@
       "name": "Mobbin",
       "url": "https://mobbin.com/mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Singapore",
+    "founding_year": 2019,
+    "industry_sector": "Design Reference Library"
   },
   {
     "id": "2fb082e7-8ca4-5e8c-b053-97d57b4fb333",
@@ -1083,9 +1083,9 @@
       "name": "Modjo Help Center",
       "url": "https://help.modjo.ai/en/articles/15459539-set-up-and-use-the-modjo-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Paris, France",
+    "founding_year": 2020,
+    "industry_sector": "Conversation Intelligence"
   },
   {
     "id": "a6073c42-35ec-5a10-b0f4-0990ff8c5065",
@@ -1100,9 +1100,9 @@
       "name": "Pennylane MCP Docs",
       "url": "https://pennylane-mcp.readme.io/docs/getting-started"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Paris, France",
+    "founding_year": 2020,
+    "industry_sector": "Accounting Software"
   },
   {
     "id": "53555462-3c4a-54b8-83e4-db6ac254b103",
@@ -1117,9 +1117,9 @@
       "name": "Spendesk Help Center",
       "url": "https://helpcenter.spendesk.com/en/articles/15052814-ask-your-spendesk-data-with-ai-mcp-getting-started-guide"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Paris, France",
+    "founding_year": 2016,
+    "industry_sector": "Spend Management"
   },
   {
     "id": "d2f671ab-cbf0-5ac0-812d-28fb0065ff26",
@@ -1134,9 +1134,9 @@
       "name": "Statista Platform Docs",
       "url": "https://docs.platform.statista.ai/mcp-server/introduction"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "Hamburg, Germany",
+    "founding_year": 2007,
+    "industry_sector": "Market & Consumer Data"
   },
   {
     "id": "fab06cc3-d5b3-57c3-acc5-4b94914524c8",
@@ -1151,9 +1151,9 @@
       "name": "Supercut Help Center",
       "url": "https://help.supercut.ai/en/articles/15163981-model-context-protocol-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "Software"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2023,
+    "industry_sector": "Video Intelligence"
   },
   {
     "id": "f9a40176-2764-598d-86ad-2686db2ebcf4",
@@ -1168,8 +1168,8 @@
       "name": "Superglue Docs",
       "url": "https://superglue.ai/docs/mcp/using-the-mcp"
     },
-    "headquarters": null,
-    "founding_year": null,
-    "industry_sector": "AI / Developer Tools"
+    "headquarters": "San Francisco, California, USA",
+    "founding_year": 2024,
+    "industry_sector": "API Integration Automation"
   }
 ]

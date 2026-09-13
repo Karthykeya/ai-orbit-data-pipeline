@@ -14,11 +14,19 @@ def _completeness_score(rec: dict) -> int:
     return sum(1 for v in rec.values() if v not in (None, "", [], "Unknown"))
 
 
+def _dedup_key(rec: dict) -> str:
+    """Community records all share vendor_domain='github.com', so domain
+    alone would wrongly collapse distinct repos with similar names. Prefer
+    the actual repo_url as the domain-equivalent when present."""
+    domain_part = (rec.get("repo_url") or rec["vendor_domain"]).lower()
+    return f"{slugify(rec['name'])}::{domain_part}"
+
+
 def dedupe(records: list[dict]) -> list[dict]:
     buckets: dict[str, dict] = {}
     dropped = 0
     for rec in records:
-        key = f"{slugify(rec['name'])}::{rec['vendor_domain'].lower()}"
+        key = _dedup_key(rec)
         if key not in buckets:
             buckets[key] = rec
             continue

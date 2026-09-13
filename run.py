@@ -55,16 +55,21 @@ def main() -> None:
     shaped = validation.validate(shaped)
 
     company_records = relationships.build_company_records(records)
-    rel_records = relationships.build_relationships(shaped, company_records)
+    repository_records = relationships.build_repository_records(records)
+    rel_records = relationships.build_relationships(shaped, company_records, repository_records)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "mcp_servers.json").write_text(json.dumps(shaped, indent=2))
     (OUT_DIR / "companies.json").write_text(json.dumps(company_records, indent=2))
+    (OUT_DIR / "repositories.json").write_text(json.dumps(repository_records, indent=2))
     (OUT_DIR / "relationships.json").write_text(json.dumps(rel_records, indent=2))
 
     logger.info(
-        "Done. Wrote %d MCP records, %d company records, %d relationships to %s",
-        len(shaped), len(company_records), len(rel_records), OUT_DIR,
+        "Done. Wrote %d MCP records (%d verified / %d community), %d companies, %d repositories, %d relationships to %s",
+        len(shaped),
+        sum(1 for r in shaped if r["verification_status"] == "verified"),
+        sum(1 for r in shaped if r["verification_status"] != "verified"),
+        len(company_records), len(repository_records), len(rel_records), OUT_DIR,
     )
 
 

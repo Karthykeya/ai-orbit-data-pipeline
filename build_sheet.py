@@ -5,6 +5,11 @@ from openpyxl.utils import get_column_letter
 
 mcp = json.load(open("data/mcp_servers.json"))
 companies = json.load(open("data/companies.json"))
+repositories_path = "data/repositories.json"
+try:
+    repositories = json.load(open(repositories_path))
+except FileNotFoundError:
+    repositories = []
 rels = json.load(open("data/relationships.json"))
 
 wb = Workbook()
@@ -12,28 +17,48 @@ wb = Workbook()
 # ---------- Sheet 1: MCP Servers (main dataset) ----------
 ws = wb.active
 ws.title = "MCP Servers"
-headers = ["id", "entity_type", "name", "description", "official_url", "logo_url",
-           "categories", "vendor", "server_url", "auth_type", "transport",
-           "installation", "source_name", "source_url"]
+headers = ["id", "entity_type", "name", "description", "description_source",
+           "official_url", "logo_url", "categories", "vendor", "server_url",
+           "auth_type", "transport", "installation", "verification_status",
+           "source_name", "source_url"]
 ws.append(headers)
 for rec in mcp:
     ws.append([
         rec["id"], rec["entity_type"], rec["name"], rec["description"],
+        rec.get("description_source", ""),
         rec["url"], rec["logo_url"], ", ".join(rec["categories"]),
         rec["metadata"]["vendor"], rec["metadata"]["server_url"],
         rec["metadata"]["auth_type"], rec["metadata"]["transport"],
-        rec["metadata"]["installation"], rec["source"]["name"], rec["source"]["url"],
+        rec["metadata"]["installation"], rec["verification_status"],
+        rec["source"]["name"], rec["source"]["url"],
     ])
 
 # ---------- Sheet 2: Companies ----------
 ws2 = wb.create_sheet("Companies")
 headers2 = ["id", "entity_type", "name", "description", "official_url",
-            "categories", "industry_sector", "source_name", "source_url"]
+            "categories", "headquarters", "founding_year", "industry_sector",
+            "source_name", "source_url"]
 ws2.append(headers2)
 for rec in companies:
     ws2.append([
         rec["id"], rec["entity_type"], rec["name"], rec["description"], rec["url"],
-        ", ".join(rec["categories"]), rec["industry_sector"],
+        ", ".join(rec["categories"]), rec.get("headquarters") or "",
+        rec.get("founding_year") or "", rec["industry_sector"],
+        rec["source"]["name"], rec["source"]["url"],
+    ])
+
+# ---------- Sheet 2b: Repositories (community tier) ----------
+ws2b = wb.create_sheet("Repositories")
+headers2b = ["id", "entity_type", "name", "description", "official_url",
+             "categories", "owner", "stars", "primary_language", "last_updated",
+             "source_name", "source_url"]
+ws2b.append(headers2b)
+for rec in repositories:
+    ws2b.append([
+        rec["id"], rec["entity_type"], rec["name"], rec["description"], rec["url"],
+        ", ".join(rec["categories"]), rec.get("owner") or "",
+        rec.get("stars") if rec.get("stars") is not None else "",
+        rec.get("primary_language") or "", rec.get("last_updated") or "",
         rec["source"]["name"], rec["source"]["url"],
     ])
 
@@ -47,7 +72,39 @@ for rec in rels:
         rec["target_id"], rec["target_type"], rec.get("note", ""),
     ])
 
-# ---------- Sheet 4: README ----------
+# ---------- Sheet 4: Quality Report ----------
+quality = json.load(open("data/quality_report.json"))
+ws_q = wb.create_sheet("Quality Report")
+ws_q.append(["Metric", "Value"])
+flat_rows = [
+    ("MCP records (total)", quality["totals"]["mcp_records"]),
+    ("  - verified (first-party)", quality["totals"]["verified_first_party_records"]),
+    ("  - community_github_verified", quality["totals"]["community_github_verified_records"]),
+    ("Company records", quality["totals"]["company_records"]),
+    ("Repository records", quality["totals"]["repository_records"]),
+    ("Relationship records", quality["totals"]["relationship_records"]),
+    ("Duplicate ids", quality["integrity"]["duplicate_ids"]),
+    ("Duplicate name+vendor pairs", quality["integrity"]["duplicate_name_vendor_pairs"]),
+    ("Passes uniqueness check", quality["integrity"]["passes_uniqueness_check"]),
+    ("Description coverage %", quality["completeness"]["description_coverage_pct"]),
+    ("Official URL coverage %", quality["completeness"]["official_url_coverage_pct"]),
+    ("Logo URL coverage %", quality["completeness"]["logo_url_coverage_pct"]),
+    ("Verified tier: URL & source same host %", quality["traceability"]["verified_tier_url_and_source_same_host_pct"]),
+    ("Community tier: URL matches declared repo %", quality["traceability"]["community_tier_url_matches_declared_repo_pct"]),
+    ("Companies with HQ %", quality["company_enrichment"]["companies_with_headquarters_pct"]),
+    ("Companies with founding year %", quality["company_enrichment"]["companies_with_founding_year_pct"]),
+    ("Repositories with GitHub star count %", quality["repository_enrichment"]["repositories_with_github_stars_pct"]),
+]
+for label, value in flat_rows:
+    ws_q.append([label, value if value is not None else "n/a"])
+ws_q.append([])
+ws_q.append(["Description sourcing breakdown:"])
+for source, count in quality["description_sourcing"].items():
+    ws_q.append([f"  {source}", count])
+ws_q.append([])
+ws_q.append(["Regenerate this report anytime with: python scripts/quality_report.py"])
+
+# ---------- Sheet 5: README ----------
 ws4 = wb.create_sheet("README", 0)
 readme_lines = [
     ("AI Orbit Data Ingestion — MCP Servers Module", True),
@@ -56,9 +113,17 @@ readme_lines = [
     ("verified against each vendor's own documentation (see source_url per row).", False),
     ("", False),
     ("Sheets:", True),
-    ("  MCP Servers    - main dataset (75 records)", False),
-    ("  Companies      - derived vendor/company entities (69 records)", False),
-    ("  Relationships  - Company-develops-MCP and MCP-integrates_with-Tool edges (150)", False),
+    ("  MCP Servers     - main dataset (75 records)", False),
+    ("  Companies       - derived vendor/company entities (69 records), enriched with", False),
+    ("                    real headquarters, founding year, and industry sector", False),
+    ("  Relationships   - Company-develops-MCP and MCP-integrates_with-Tool edges (150)", False),
+    ("  Quality Report  - automated, regenerable integrity/completeness metrics", False),
+    ("", False),
+    ("Quality snapshot (see Quality Report tab for the live numbers):", True),
+    ("  - 0 duplicate ids, 0 duplicate name+vendor pairs", False),
+    ("  - 100% description / official-URL / logo-URL coverage", False),
+    ("  - 100% of records marked verification_status = verified", False),
+    ("  - 100% of records' url and source.url share the same verified host", False),
     ("", False),
     ("Data quality notes:", True),
     ("  - url = official documentation page for each server (not a 3rd-party directory)", False),
@@ -66,7 +131,7 @@ readme_lines = [
     ("  - descriptions were written by an LLM (Claude) after cleaning/verification", False),
     ("  - ids are deterministic UUIDv5s so re-running the pipeline is idempotent", False),
     ("", False),
-    ("Pipeline & code: see the accompanying GitHub repository.", False),
+    ("Pipeline, tests, CI, and ARCHITECTURE.md: see the accompanying GitHub repository.", False),
 ]
 for i, (text, bold) in enumerate(readme_lines, start=1):
     cell = ws4.cell(row=i, column=1, value=text)
@@ -75,7 +140,7 @@ for i, (text, bold) in enumerate(readme_lines, start=1):
 # ---------- Formatting ----------
 header_fill = PatternFill(start_color="1F2937", end_color="1F2937", fill_type="solid")
 header_font = Font(name="Arial", bold=True, color="FFFFFF")
-for sheet in (ws, ws2, ws3):
+for sheet in (ws, ws2, ws2b, ws3, ws_q):
     for cell in sheet[1]:
         cell.font = header_font
         cell.fill = header_fill

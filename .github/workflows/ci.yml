@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest openpyxl
+
+      - name: Run unit tests
+        run: pytest tests/ -v
+
+      - name: Smoke-test the live MCP Registry puller (small sample)
+        run: python scripts/pull_registry.py --target 20
+        continue-on-error: true  # registry uptime isn't guaranteed (it's documented as "preview"); don't fail CI on a flaky external dependency
+
+      - name: Run ingestion pipeline
+        run: python run.py
+
+      - name: Generate & enforce quality gate
+        run: python scripts/quality_report.py
+
+      - name: Upload data artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-outputs
+          path: |
+            data/mcp_servers.json
+            data/companies.json
+            data/repositories.json
+            data/relationships.json
+            data/quality_report.json

@@ -27,6 +27,14 @@ def extract(raw_records: list[dict]) -> list[dict]:
             "runtime": rec.get("runtime", "Unknown"),
             "source_name": rec.get("source_name", rec["vendor"]),
             "source_url": rec.get("source_url", rec["docs_url"]),
+            "verification_tier": rec.get("verification_tier", "verified"),
+            "repo_owner": rec.get("repo_owner"),
+            "repo_name": rec.get("repo_name"),
+            "repo_url": rec.get("repo_url"),
+            "stars": rec.get("stars"),
+            "primary_language": rec.get("primary_language"),
+            "last_updated": rec.get("last_updated"),
+            "publisher_description": rec.get("publisher_description", ""),
         })
     logger.info("extracted %d/%d records", len(extracted), len(raw_records))
     return extracted

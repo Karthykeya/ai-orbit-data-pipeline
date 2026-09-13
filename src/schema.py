@@ -44,3 +44,11 @@ def official_logo_url(domain: str) -> str:
     """
     d = apex_domain(domain)
     return f"https://logo.clearbit.com/{d}"
+
+
+def github_avatar_url(owner: str) -> str:
+    """GitHub serves every user/org's own real avatar at this fixed,
+    unauthenticated URL — the correct "official logo" source for
+    community MCP servers (identified by GitHub owner, not a company
+    domain), rather than repeating github.com's own logo for every one."""
+    return f"https://github.com/{owner}.png"
